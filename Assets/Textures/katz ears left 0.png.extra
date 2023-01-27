@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "01e24293-894d-fd7e-63a4-2c5c90b03f17",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "katz ears left 0",
+    "objGuid": "Guid(17240743706352093199, 11359394545124246147)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

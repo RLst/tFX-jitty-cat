@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "89aebb74-a9ad-24ee-8193-086480bcf492",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "katz ears right 0",
+    "objGuid": "Guid(18772077416791289, 17238273715023922329)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]
