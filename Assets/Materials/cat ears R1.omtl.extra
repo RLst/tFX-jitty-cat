@@ -6,11 +6,11 @@
     },
     "extraType": "ResItemMaterialOmtl",
     "name": "cat ears R1",
-    "objGuid": "Guid(6217330215396102983, 12711904723030385063)",
+    "objGuid": "Guid(12702538315726531580, 4362947993590026120)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(11478334876366382534, 5230576610344644745)"
+    "skinObjGuid": "Guid(17892572381627128503, 11464592553954984863)"
   }
 ]

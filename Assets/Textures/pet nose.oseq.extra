@@ -1,18 +1,18 @@
 [
   {
     "guid": {
-      "a": "2f3b99e4-5285-311f-995d-e4d78fd87f22",
+      "a": "63a5cc2b-1c4a-5e7b-5642-a803aa5683cc",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
     "name": "pet nose",
-    "objGuid": "Guid(16666176419110469501, 587911211959828916)",
+    "objGuid": "Guid(5062192669056612996, 8430513885211846817)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "compressionType": 1,
-    "quality": 1,
+    "compressionType": 0,
+    "quality": 0,
     "maxResolution": 512
   }
 ]

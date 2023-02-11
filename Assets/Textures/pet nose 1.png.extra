@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "pet nose 1",
-    "objGuid": "Guid(19953746450342766, 17366393557152582022)",
+    "objGuid": "Guid(15511852386253155270, 6046682761382487203)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

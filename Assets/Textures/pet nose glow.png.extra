@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "94caeb9f-e52c-7156-ba88-aa1e9ee6f2f2",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "pet nose glow",
+    "objGuid": "Guid(7371210618171579402, 9476939534070336137)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]
