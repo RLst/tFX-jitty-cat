@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "ed747da2-4e64-a70e-5b1b-3f88ef169e4c",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "whiskers side R1",
+    "objGuid": "Guid(13425083274783567307, 6504629909419144075)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(8161211083576511418, 4519779455886540968)"
+  }
+]

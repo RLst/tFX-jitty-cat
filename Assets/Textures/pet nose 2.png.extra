@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "507e8b8e-1bb6-475e-7ec7-c6a3cf7ac0ee",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "pet nose 2",
+    "objGuid": "Guid(16954805440048727856, 12333770304624279972)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "a292f185-78af-f2f8-f01f-e6ecfb13d814",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "whiskers side L1",
+    "objGuid": "Guid(21301924784702336, 11210863826170983301)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

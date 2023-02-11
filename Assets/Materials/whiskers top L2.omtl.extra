@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "bb69f447-815e-b7ca-b560-783ae1c53fa5",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "whiskers top L2",
+    "objGuid": "Guid(6287707748655664234, 1371205940126932405)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(14936185015157143762, 11605140952563471234)"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "12f47f59-6381-5e52-408d-519493a21332",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "whiskers top L0",
+    "objGuid": "Guid(13207314790050124507, 11627145921379817899)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

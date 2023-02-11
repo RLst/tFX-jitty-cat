@@ -82,7 +82,7 @@ entities:
     name: Right Ears
     guid: {a: 3550188606904665173, b: 11534181050659967126}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 6}
       - __class: IFSprite2d
@@ -141,7 +141,7 @@ entities:
           value: AlignOneAnchor
         indexs1: [41]
         weights1: [1]
-        anchor1: {x: 0.5358254, y: -0.6307815}
+        anchor1: {x: 0.5272956, y: -0.3615476}
         indexs2: [77]
         weights2: [1]
         anchor2: {x: 1, y: 1}
@@ -154,11 +154,11 @@ entities:
         useScaleX: true
         scaleXStartIndex: 74
         scaleXEndIndex: 77
-        scaleXFactor: 1.051265597343445
+        scaleXFactor: 1.379786014556885
         useScaleY: false
         scaleYStartIndex: 43
         scaleYEndIndex: 49
-        scaleYFactor: 1.441449999809265
+        scaleYFactor: 1.891903162002563
         rotationType:
           __class: IFRotationType
           value: Algorithm
@@ -178,7 +178,7 @@ entities:
         name: ""
         guid: {a: 10614786730345458384, b: 7348349130564358022}
         enabled: true
-        animSeq: {localId: 1, path: 20841429-d0d3-58e8-e84e-364f35c311db--20841429-d0d3-58e8-e84e-364f35c311db.seq}
+        animSeq: {localId: 1, path: 00000000-0000-0000-0000-00000000006c--00000000-0000-0000-0000-00000000006c.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -191,13 +191,13 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          katz ears: {localId: 1, path: 20841429-d0d3-58e8-e84e-364f35c311db--20841429-d0d3-58e8-e84e-364f35c311db.seq}
+          defaultErrorSeq: {localId: 1, path: 00000000-0000-0000-0000-00000000006c--00000000-0000-0000-0000-00000000006c.seq}
     layer: 1
   - __class: Entity
     name: Left Ears
     guid: {a: 11839220963684904138, b: 17715425399126956969}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 7}
       - __class: IFSprite2d
@@ -256,7 +256,7 @@ entities:
           value: AlignOneAnchor
         indexs1: [35]
         weights1: [1]
-        anchor1: {x: 0.3737734, y: -0.5850469}
+        anchor1: {x: 0.4038274, y: -0.3267024}
         indexs2: [77]
         weights2: [1]
         anchor2: {x: 1, y: 1}
@@ -269,11 +269,11 @@ entities:
         useScaleX: true
         scaleXStartIndex: 74
         scaleXEndIndex: 77
-        scaleXFactor: 1.051265597343445
+        scaleXFactor: 1.379786014556885
         useScaleY: false
         scaleYStartIndex: 43
         scaleYEndIndex: 49
-        scaleYFactor: 1.441449999809265
+        scaleYFactor: 1.891903162002563
         rotationType:
           __class: IFRotationType
           value: Algorithm
@@ -293,7 +293,7 @@ entities:
         name: ""
         guid: {a: 3552928142764022591, b: 7819540801634173374}
         enabled: true
-        animSeq: {localId: 1, path: 20841429-d0d3-58e8-e84e-364f35c311db--20841429-d0d3-58e8-e84e-364f35c311db.seq}
+        animSeq: {localId: 1, path: 00000000-0000-0000-0000-00000000006c--00000000-0000-0000-0000-00000000006c.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -306,7 +306,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          katz ears: {localId: 1, path: 20841429-d0d3-58e8-e84e-364f35c311db--20841429-d0d3-58e8-e84e-364f35c311db.seq}
+          defaultErrorSeq: {localId: 1, path: 00000000-0000-0000-0000-00000000006c--00000000-0000-0000-0000-00000000006c.seq}
     layer: 1
   - __class: Entity
     name: Head Tracker
@@ -349,7 +349,7 @@ entities:
     name: 2D Camera
     guid: {a: 3481140876464209302, b: 17849549056704101013}
     scene: {localId: 1}
-    selfvisible: false
+    selfvisible: true
     components:
       - {localId: 4}
       - __class: Camera
@@ -378,14 +378,14 @@ entities:
     name: Face Sticker Canvas
     guid: {a: 6074601651342754424, b: 3996176412284519861}
     scene: {localId: 1}
-    selfvisible: false
+    selfvisible: true
     components:
       - {localId: 5}
       - __class: IFLayer2d
         name: ""
         guid: {a: 11835496639853293585, b: 1886449160822974643}
         enabled: true
-        sortingOrder: 3
+        sortingOrder: 9
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -479,7 +479,267 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 5804c836-fc2b-9d7e-d957-17981466fa12--5804c836-fc2b-9d7e-d957-17981466fa12.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Nose
+    guid: {a: 5136179467981824055, b: 5191406859742508223}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 14432192002975964247, b: 5041112796182461371}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/2f3b99e4-5285-311f-995d-e4d78fd87f22/2.png}
+        imageAtlas: {localId: 1, path: 2f3b99e4-5285-311f-995d-e4d78fd87f22--2.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 8739884894219346658, b: 2162901738339825850}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [46]
+        weights1: [1]
+        anchor1: {x: 0.4946615, y: 0.5247526}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.45, y: 0.45}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [0, 1, 2, 3, 4]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 11406476161238200212, b: 16259467842679672245}
+        enabled: true
+        animSeq: {localId: 1, path: 2f3b99e4-5285-311f-995d-e4d78fd87f22--2f3b99e4-5285-311f-995d-e4d78fd87f22.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          pet nose: {localId: 1, path: 2f3b99e4-5285-311f-995d-e4d78fd87f22--2f3b99e4-5285-311f-995d-e4d78fd87f22.seq}
+    layer: 1
+  - __class: Entity
+    name: Lips
+    guid: {a: 379629093125337931, b: 12322518855525002152}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 13}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 11767112732280354683, b: 774689153197093278}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 855696a9-9e76-cc6d-53d2-22e91fc2630e--855696a9-9e76-cc6d-53d2-22e91fc2630e.material}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000001}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Nose
+    guid: {a: 13063848752211082047, b: 8685130483735326642}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 14}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 1677499159691567743, b: 16632722888440532609}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 8162491a-6a0e-4c95-bc6a-821be8c716cd--8162491a-6a0e-4c95-bc6a-821be8c716cd.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Right Top Whiskers
+    guid: {a: 11763455360919416154, b: 2257416956482283164}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 5062520009559057617, b: 6938405770846834111}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: eae45b5f-9c19-3cde-cbdb-23d37ea12e1d--eae45b5f-9c19-3cde-cbdb-23d37ea12e1d.material}
         sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Left Top Whiskers
+    guid: {a: 14501952126625010350, b: 17350113422432056502}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 6648068661108053125, b: 14912704416320740230}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00168652-8a6e-bd7a-d820-92cc796b53b1--00168652-8a6e-bd7a-d820-92cc796b53b1.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Right Side Whiskers
+    guid: {a: 2760642012347637232, b: 2175928697295076027}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 7658909724673273687, b: 4404457585572114565}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 0b0c9b53-bed8-968a-bfe2-e345831f4763--0b0c9b53-bed8-968a-bfe2-e345831f4763.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Left Side Whiskers
+    guid: {a: 17024745496816837984, b: 14822022074879321764}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 3549886841853617150, b: 5709735033907871130}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 359adde5-41ab-2d57-a595-d8d84914b49b--359adde5-41ab-2d57-a595-d8d84914b49b.material}
+        sortingOrder: 6
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -541,6 +801,7 @@ localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
+  - {localId: 12}
   - {localId: 6}
   - {localId: 7}
 mobility:
@@ -558,7 +819,7 @@ depth: 0
 name: ""
 guid: {a: 2829075984729348206, b: 16844576632136743815}
 enabled: true
-localPosition: {x: 0.2819167, y: 0.5767985, z: 0}
+localPosition: {x: 0.2819167, y: 0.5767984, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 5}
@@ -568,11 +829,11 @@ mobility:
 position: {x: 180.4267, y: 369.151}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 256, y: 256}
+size: {x: 336, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -1
+depth: -2
 --- !IFTransform2d &7
 name: ""
 guid: {a: 1535543316991371928, b: 13075102754837361064}
@@ -587,11 +848,11 @@ mobility:
 position: {x: -180.573, y: 357.151}
 rotation: 0
 scale: {x: 1, y: 1}
-size: {x: 256, y: 256}
+size: {x: 336, y: 336}
 pivot: {x: 0.5, y: 0.5}
 flipX: true
 flipY: false
-depth: -2
+depth: -3
 --- !Transform &8
 name: ""
 guid: {a: 14573891476796182006, b: 6886627657608543670}
@@ -602,7 +863,13 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
   - {localId: 9}
   - {localId: 10}
+  - {localId: 15}
+  - {localId: 17}
   - {localId: 11}
+  - {localId: 16}
+  - {localId: 18}
+  - {localId: 14}
+  - {localId: 13}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -621,9 +888,9 @@ mobility:
 name: ""
 guid: {a: 3407866189663558974, b: 8755478706445077923}
 enabled: true
-localPosition: {x: 5.5, y: 12.5, z: -3}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.9986295, x: 0, y: 0, z: 0.05233596}
+localPosition: {x: 5.5, y: 13, z: -2.5}
+localScale: {x: 0.95, y: 0.95, z: 1}
+localOrientation: {w: 0.9924039, x: 0.007596125, y: 0.0868241, z: 0.0868241}
 parent: {localId: 8}
 mobility:
   __class: Mobility
@@ -632,9 +899,94 @@ mobility:
 name: ""
 guid: {a: 12341005675873862576, b: 17177021494770116248}
 enabled: true
-localPosition: {x: -5.5, y: 12.5, z: -3}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.9986295, x: 0, y: 0, z: -0.05233596}
+localPosition: {x: -5.5, y: 13, z: -2.5}
+localScale: {x: 0.95, y: 0.95, z: 1}
+localOrientation: {w: 0.9924039, x: 0.007596125, y: -0.0868241, z: -0.0868241}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !IFTransform2d &12
+name: ""
+guid: {a: 1317163851456244208, b: 5697842180808021153}
+enabled: true
+localPosition: {x: -2.561137e-09, y: -0.2378125, z: 0}
+localScale: {x: -0.45, y: 0.45, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: -0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -1.639128e-06, y: -152.2}
+rotation: 0
+scale: {x: 0.45, y: 0.45}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: true
+flipY: false
+depth: -1
+--- !Transform &13
+name: ""
+guid: {a: 4773963469006570890, b: 4761940646646262195}
+enabled: true
+localPosition: {x: 0, y: -2.360826, z: -4.720846}
+localScale: {x: 1.5, y: 1.5, z: 2}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: ""
+guid: {a: 1533993196798044887, b: 12048015946516945329}
+enabled: true
+localPosition: {x: 0, y: -1.682286, z: 5.687}
+localScale: {x: 0.8, y: 0.8, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: ""
+guid: {a: 11331542673041649350, b: 3732731025571616133}
+enabled: true
+localPosition: {x: 3, y: 13, z: 1}
+localScale: {x: 0.8, y: 0.8, z: 0.9999999}
+localOrientation: {w: 0.9961947, x: 0, y: 0.08715575, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: ""
+guid: {a: 5134433205394036928, b: 2994694443366386840}
+enabled: true
+localPosition: {x: -3, y: 13, z: 1}
+localScale: {x: 0.75, y: 0.75, z: 0.9999999}
+localOrientation: {w: 0.9961947, x: 0, y: -0.08715575, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: ""
+guid: {a: 10686845127087348331, b: 11871661143077435780}
+enabled: true
+localPosition: {x: 7, y: -2, z: 2.5}
+localScale: {x: 0.75, y: 0.75, z: 0.9999999}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: ""
+guid: {a: 22420924725010517, b: 9106698637919889286}
+enabled: true
+localPosition: {x: -7, y: -2, z: 2.5}
+localScale: {x: 0.75, y: 0.75, z: 0.9999998}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 8}
 mobility:
   __class: Mobility

@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "f2782b5d-2bf7-96c4-9567-f81bf97f0fe9",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cat ears L2",
+    "objGuid": "Guid(7011193322921514525, 10344887218075783597)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]
