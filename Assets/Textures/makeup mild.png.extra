@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "d8a588d6-956c-3eab-7718-625b1112de62",
+      "a": "d06815e8-ea32-c552-0040-a22ed16246df",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "pet nose 0",
-    "objGuid": "Guid(8090260283245264934, 15330238382170859157)",
+    "name": "makeup mild",
+    "objGuid": "Guid(6072565919466439039, 14613802379159493814)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

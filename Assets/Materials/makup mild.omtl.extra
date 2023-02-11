@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "c02d783a-5d37-c49d-ff5f-a73b44fb1022",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "makup mild",
+    "objGuid": "Guid(17748129074436483835, 16718013048863469749)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(18394980023278793301, 3701061477101877130)"
+  }
+]
