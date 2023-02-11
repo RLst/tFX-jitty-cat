@@ -350,8 +350,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/63a5cc2b-1c4a-5e7b-5642-a803aa5683cc/2.png}
-        imageAtlas: {localId: 1, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/63a5cc2b-1c4a-5e7b-5642-a803aa5683cc/3.png}
+        imageAtlas: {localId: 2, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--3.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -428,7 +428,7 @@ entities:
         name: ""
         guid: {a: 11406476161238200212, b: 16259467842679672245}
         enabled: true
-        animSeq: {localId: 1, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--63a5cc2b-1c4a-5e7b-5642-a803aa5683cc.seq}
+        animSeq: {localId: 2, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--63a5cc2b-1c4a-5e7b-5642-a803aa5683cc.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -441,7 +441,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          pet nose: {localId: 1, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--63a5cc2b-1c4a-5e7b-5642-a803aa5683cc.seq}
+          pet nose: {localId: 2, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--63a5cc2b-1c4a-5e7b-5642-a803aa5683cc.seq}
     layer: 1
   - __class: Entity
     name: Right Top Whiskers
@@ -1231,7 +1231,7 @@ mobility:
 name: ""
 guid: {a: 3407866189663558974, b: 8755478706445077923}
 enabled: true
-localPosition: {x: 5.5, y: 13, z: -2.5}
+localPosition: {x: 6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.95, z: 1}
 localOrientation: {w: 0.9924039, x: 0.007596125, y: 0.0868241, z: 0.0868241}
 parent: {localId: 8}
@@ -1242,7 +1242,7 @@ mobility:
 name: ""
 guid: {a: 12341005675873862576, b: 17177021494770116248}
 enabled: true
-localPosition: {x: -5.5, y: 13, z: -2.5}
+localPosition: {x: -6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.95, z: 1}
 localOrientation: {w: 0.9924039, x: 0.007596125, y: -0.0868241, z: -0.0868241}
 parent: {localId: 8}
@@ -1332,16 +1332,6 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &21
-name: ""
-guid: {a: 11693467394567444354, b: 12324746562764624265}
-enabled: true
-localPosition: {x: 0, y: -1.748296, z: 6.783828}
-localScale: {x: 0.75, y: 0.75, z: 0.9999998}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-mobility:
-  __class: Mobility
-  value: Dynamic
 --- !Transform &22
 name: ""
 guid: {a: 1895508062378045412, b: 3228677290447521705}
@@ -1375,7 +1365,7 @@ mobility:
 name: ""
 guid: {a: 6863521521053089926, b: 5900912619081330562}
 enabled: true
-localPosition: {x: 5.5, y: 13, z: -2.5}
+localPosition: {x: 6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 22}
@@ -1408,7 +1398,7 @@ mobility:
 name: ""
 guid: {a: 12775834805168197109, b: 8731813393374474140}
 enabled: true
-localPosition: {x: -5.5, y: 13, z: -2.5}
+localPosition: {x: -6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 22}
@@ -1434,16 +1424,6 @@ localPosition: {x: -7, y: -2, z: 2.5}
 localScale: {x: 0.8, y: 0.8, z: 0.9999998}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 22}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &30
-name: ""
-guid: {a: 9747088885621566977, b: 16069473031431267478}
-enabled: true
-localPosition: {x: 0, y: -1.748296, z: 4.598551}
-localScale: {x: 0.75, y: 0.75, z: 0.9999998}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1480,7 +1460,7 @@ mobility:
 name: ""
 guid: {a: 16592012720066999164, b: 13558518464437786255}
 enabled: true
-localPosition: {x: 5.5, y: 13, z: -2.5}
+localPosition: {x: 6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 31}
@@ -1513,7 +1493,7 @@ mobility:
 name: ""
 guid: {a: 16304839497809818441, b: 5698568467669869211}
 enabled: true
-localPosition: {x: -5.5, y: 13, z: -2.5}
+localPosition: {x: -6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 31}
@@ -1539,16 +1519,6 @@ localPosition: {x: -7, y: -2, z: 2.5}
 localScale: {x: 0.8, y: 0.8, z: 0.9999998}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 31}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &39
-name: ""
-guid: {a: 11259325537547288231, b: 13415098371310791832}
-enabled: true
-localPosition: {x: 0, y: -1.748296, z: 4.598551}
-localScale: {x: 0.75, y: 0.75, z: 0.9999998}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1585,7 +1555,7 @@ mobility:
 name: ""
 guid: {a: 16951680519219449911, b: 14653359617386684304}
 enabled: true
-localPosition: {x: 5.5, y: 13, z: -2.5}
+localPosition: {x: 6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 40}
@@ -1618,7 +1588,7 @@ mobility:
 name: ""
 guid: {a: 5426202968252354880, b: 9978062447245993353}
 enabled: true
-localPosition: {x: -5.5, y: 13, z: -2.5}
+localPosition: {x: -6, y: 12, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 40}
@@ -1644,26 +1614,6 @@ localPosition: {x: -7, y: -2, z: 2.5}
 localScale: {x: 0.8, y: 0.8, z: 0.9999998}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 40}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &48
-name: ""
-guid: {a: 379859792155897921, b: 532987812895023755}
-enabled: true
-localPosition: {x: 0, y: -1.748296, z: 4.598551}
-localScale: {x: 0.75, y: 0.75, z: 0.9999998}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &49
-name: ""
-guid: {a: 17460169911741047670, b: 2845080838435417513}
-enabled: true
-localPosition: {x: -6.564405, y: 8.526218, z: 0.6453202}
-localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
-localOrientation: {w: 0.9921654, x: -0.003614597, y: -0.1199614, z: 0.03469905}
 mobility:
   __class: Mobility
   value: Dynamic
