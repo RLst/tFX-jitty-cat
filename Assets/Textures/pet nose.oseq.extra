@@ -1,12 +1,12 @@
 [
   {
     "guid": {
-      "a": "63a5cc2b-1c4a-5e7b-5642-a803aa5683cc",
+      "a": "ba94d037-df4c-95b3-91d8-80e1c5daeb86",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
     "name": "pet nose",
-    "objGuid": "Guid(5062192669056612996, 8430513885211846817)",
+    "objGuid": "Guid(10035013880751081979, 15409230793599797644)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

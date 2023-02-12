@@ -350,8 +350,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/63a5cc2b-1c4a-5e7b-5642-a803aa5683cc/3.png}
-        imageAtlas: {localId: 2, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--3.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/3.png}
+        imageAtlas: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--3.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -389,9 +389,9 @@ entities:
         alignType:
           __class: IFAnchorAlignmentType
           value: AlignOneAnchor
-        indexs1: [46]
+        indexs1: [45]
         weights1: [1]
-        anchor1: {x: 0.4946615, y: 0.5247526}
+        anchor1: {x: 0.5030122, y: 0.597486}
         indexs2: [77]
         weights2: [1]
         anchor2: {x: 1, y: 1}
@@ -428,7 +428,7 @@ entities:
         name: ""
         guid: {a: 11406476161238200212, b: 16259467842679672245}
         enabled: true
-        animSeq: {localId: 2, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--63a5cc2b-1c4a-5e7b-5642-a803aa5683cc.seq}
+        animSeq: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -441,7 +441,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          pet nose: {localId: 2, path: 63a5cc2b-1c4a-5e7b-5642-a803aa5683cc--63a5cc2b-1c4a-5e7b-5642-a803aa5683cc.seq}
+          pet nose: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
     layer: 1
   - __class: Entity
     name: Right Top Whiskers
@@ -1253,19 +1253,19 @@ mobility:
 name: ""
 guid: {a: 1317163851456244208, b: 5697842180808021153}
 enabled: true
-localPosition: {x: -2.561138e-09, y: -0.2378125, z: 0}
-localScale: {x: -0.45, y: 0.45, z: 1}
+localPosition: {x: -2.561138e-09, y: -0.192634, z: 0}
+localScale: {x: 0.45, y: 0.45, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: -0}
 parent: {localId: 5}
 mobility:
   __class: Mobility
   value: Dynamic
-position: {x: -1.639128e-06, y: -152.2}
+position: {x: -1.639128e-06, y: -123.2858}
 rotation: 0
 scale: {x: 0.45, y: 0.45}
 size: {x: 512, y: 512}
 pivot: {x: 0.5, y: 0.5}
-flipX: true
+flipX: false
 flipY: false
 depth: -1
 --- !Transform &15

@@ -6,11 +6,11 @@
     },
     "extraType": "ResItemMaterialOmtl",
     "name": "pet nose 0",
-    "objGuid": "Guid(2469262977143269920, 12195486734975045055)",
+    "objGuid": "Guid(3333709993289241454, 1595969978655240121)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(17024595340647222311, 11702006144940556687)"
+    "skinObjGuid": "Guid(16952238632556486382, 7083543689809154947)"
   }
 ]
