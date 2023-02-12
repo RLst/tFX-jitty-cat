@@ -350,8 +350,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/3.png}
-        imageAtlas: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--3.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/2.png}
+        imageAtlas: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--2.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1150,7 +1150,7 @@ config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: _4X
+  value: NONE
 jsScriptSystems:
   - js/GraphSystem.js
   - js/EditorInjectSystem.js
