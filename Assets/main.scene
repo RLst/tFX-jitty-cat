@@ -46,7 +46,7 @@ entities:
         guid: {a: 7732415923796265678, b: 14853583872975082416}
         enabled: true
         layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [2, 0]}
-        renderOrder: 20
+        renderOrder: 1
         type:
           __class: CameraType
           value: ORTHO
@@ -62,6 +62,50 @@ entities:
         zFar: 1000
         renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
         isRootCamera: false
+    layer: 1
+  - __class: Entity
+    name: 2D Canvas
+    guid: {a: 6074601651342754424, b: 3996176412284519861}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: IFLayer2d
+        name: ""
+        guid: {a: 11835496639853293585, b: 1886449160822974643}
+        enabled: true
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        renderOrderMode:
+          __class: IFLayer2dRenderOrderMode
+          value: SceneCustom
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        blendAlpha: 1
+        blendAlphaCkeck: true
+        drawCallNum: 2
+        maskType:
+          __class: IFMaskType
+          value: None
+        inverted: false
+        scissorRectMask: false
+        updateFlag: false
+        updateSortFlag: false
+      - __class: IFCanvas2d
+        name: ""
+        guid: {a: 6505535488944655965, b: 2305144959253581709}
+        enabled: true
+        resolutionType:
+          __class: IFResolutionType
+          value: FitHeight
+        resolutionSize: {x: 720, y: 1280}
     layer: 1
   - __class: Entity
     name: Head Tracker
@@ -212,49 +256,13 @@ entities:
           value: ROTATE_AROUND_XYZ_AXIS
     layer: 0
   - __class: Entity
-    name: Face Sticker Canvas
-    guid: {a: 6074601651342754424, b: 3996176412284519861}
+    name: Portrait Segmentation
+    guid: {a: 523063661499741736, b: 13170597275721529790}
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 5}
-      - __class: IFLayer2d
-        name: ""
-        guid: {a: 11835496639853293585, b: 1886449160822974643}
-        enabled: true
-        sortingOrder: 28
-        autoSortingOrder: true
-        useFrustumCulling: true
-        receiveShadow: true
-        lightProbeBlendMode:
-          __class: LightProbeBlendMode
-          value: OFF
-        entirePingPong: false
-        renderOrderMode:
-          __class: IFLayer2dRenderOrderMode
-          value: SceneCustom
-        blendMode:
-          __class: IFBlendMode
-          value: Normal
-        blendAlpha: 1
-        blendAlphaCkeck: true
-        drawCallNum: 1
-        maskType:
-          __class: IFMaskType
-          value: None
-        inverted: false
-        scissorRectMask: false
-        updateFlag: false
-        updateSortFlag: false
-      - __class: IFCanvas2d
-        name: ""
-        guid: {a: 6505535488944655965, b: 2305144959253581709}
-        enabled: true
-        resolutionType:
-          __class: IFResolutionType
-          value: FitHeight
-        resolutionSize: {x: 720, y: 1280}
-    layer: 1
+      - {localId: 48}
+    layer: 2
   - __class: Entity
     name: Head
     guid: {a: 10972473111684705442, b: 14850499784477883285}
@@ -268,7 +276,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
-        sortingOrder: 0
+        sortingOrder: 1
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -292,7 +300,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 18f34fd1-8099-6e26-7ffe-37eb05cd79ed--18f34fd1-8099-6e26-7ffe-37eb05cd79ed.material}
-        sortingOrder: 1
+        sortingOrder: 2
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -316,7 +324,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 5804c836-fc2b-9d7e-d957-17981466fa12--5804c836-fc2b-9d7e-d957-17981466fa12.material}
-        sortingOrder: 4
+        sortingOrder: 5
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -350,8 +358,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/2.png}
-        imageAtlas: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/4.png}
+        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--4.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -428,7 +436,7 @@ entities:
         name: ""
         guid: {a: 11406476161238200212, b: 16259467842679672245}
         enabled: true
-        animSeq: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
+        animSeq: {localId: 6, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -441,7 +449,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          pet nose: {localId: 2, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
+          pet nose: {localId: 6, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
     layer: 1
   - __class: Entity
     name: Right Top Whiskers
@@ -456,7 +464,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: eae45b5f-9c19-3cde-cbdb-23d37ea12e1d--eae45b5f-9c19-3cde-cbdb-23d37ea12e1d.material}
-        sortingOrder: 2
+        sortingOrder: 3
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -480,7 +488,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00168652-8a6e-bd7a-d820-92cc796b53b1--00168652-8a6e-bd7a-d820-92cc796b53b1.material}
-        sortingOrder: 5
+        sortingOrder: 6
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -504,7 +512,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 0b0c9b53-bed8-968a-bfe2-e345831f4763--0b0c9b53-bed8-968a-bfe2-e345831f4763.material}
-        sortingOrder: 3
+        sortingOrder: 4
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -528,7 +536,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 359adde5-41ab-2d57-a595-d8d84914b49b--359adde5-41ab-2d57-a595-d8d84914b49b.material}
-        sortingOrder: 6
+        sortingOrder: 7
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -540,7 +548,7 @@ entities:
         castShadow: false
     layer: 0
   - __class: Entity
-    name: Mid Makeup
+    name: "Makeup: Mild"
     guid: {a: 4918286966002770579, b: 13975805073142341281}
     scene: {localId: 1}
     selfvisible: true
@@ -572,7 +580,7 @@ entities:
         templateMesh: {localId: 1, path: 00000000-0000-0000-0000-000000000052}
         dynamicRenderChain: false
         faceIds: [0, 1, 2, 3, 4]
-        facemakeupEntityName: Mid Makeup
+        facemakeupEntityName: "Makeup: Mild"
         zPosition: 0
         triggerLua: true
         version: 1
@@ -593,7 +601,7 @@ entities:
           faceIds: [0, 1, 2, 3]
     layer: 0
   - __class: Entity
-    name: Filter
+    name: "Filter: Boost Sat + Temp"
     guid: {a: 16952866721377249468, b: 15029088098128061058}
     scene: {localId: 1}
     selfvisible: true
@@ -654,7 +662,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00168652-8a6e-bd7a-d820-92cc796b53b1--00168652-8a6e-bd7a-d820-92cc796b53b1.material}
-        sortingOrder: 12
+        sortingOrder: 13
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -678,7 +686,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 5804c836-fc2b-9d7e-d957-17981466fa12--5804c836-fc2b-9d7e-d957-17981466fa12.material}
-        sortingOrder: 11
+        sortingOrder: 12
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -702,7 +710,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 0b0c9b53-bed8-968a-bfe2-e345831f4763--0b0c9b53-bed8-968a-bfe2-e345831f4763.material}
-        sortingOrder: 10
+        sortingOrder: 11
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -726,7 +734,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
-        sortingOrder: 7
+        sortingOrder: 8
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -750,7 +758,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: eae45b5f-9c19-3cde-cbdb-23d37ea12e1d--eae45b5f-9c19-3cde-cbdb-23d37ea12e1d.material}
-        sortingOrder: 9
+        sortingOrder: 10
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -774,7 +782,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 18f34fd1-8099-6e26-7ffe-37eb05cd79ed--18f34fd1-8099-6e26-7ffe-37eb05cd79ed.material}
-        sortingOrder: 8
+        sortingOrder: 9
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -798,7 +806,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 359adde5-41ab-2d57-a595-d8d84914b49b--359adde5-41ab-2d57-a595-d8d84914b49b.material}
-        sortingOrder: 13
+        sortingOrder: 14
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -822,7 +830,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: eae45b5f-9c19-3cde-cbdb-23d37ea12e1d--eae45b5f-9c19-3cde-cbdb-23d37ea12e1d.material}
-        sortingOrder: 16
+        sortingOrder: 17
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -846,7 +854,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00168652-8a6e-bd7a-d820-92cc796b53b1--00168652-8a6e-bd7a-d820-92cc796b53b1.material}
-        sortingOrder: 19
+        sortingOrder: 20
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -870,7 +878,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 5804c836-fc2b-9d7e-d957-17981466fa12--5804c836-fc2b-9d7e-d957-17981466fa12.material}
-        sortingOrder: 18
+        sortingOrder: 19
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -894,7 +902,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
-        sortingOrder: 14
+        sortingOrder: 15
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -918,7 +926,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 18f34fd1-8099-6e26-7ffe-37eb05cd79ed--18f34fd1-8099-6e26-7ffe-37eb05cd79ed.material}
-        sortingOrder: 15
+        sortingOrder: 16
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -942,7 +950,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 359adde5-41ab-2d57-a595-d8d84914b49b--359adde5-41ab-2d57-a595-d8d84914b49b.material}
-        sortingOrder: 20
+        sortingOrder: 21
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -966,7 +974,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 0b0c9b53-bed8-968a-bfe2-e345831f4763--0b0c9b53-bed8-968a-bfe2-e345831f4763.material}
-        sortingOrder: 17
+        sortingOrder: 18
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -990,7 +998,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00168652-8a6e-bd7a-d820-92cc796b53b1--00168652-8a6e-bd7a-d820-92cc796b53b1.material}
-        sortingOrder: 26
+        sortingOrder: 27
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1014,7 +1022,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 0b0c9b53-bed8-968a-bfe2-e345831f4763--0b0c9b53-bed8-968a-bfe2-e345831f4763.material}
-        sortingOrder: 24
+        sortingOrder: 25
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1038,7 +1046,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 359adde5-41ab-2d57-a595-d8d84914b49b--359adde5-41ab-2d57-a595-d8d84914b49b.material}
-        sortingOrder: 27
+        sortingOrder: 28
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1062,7 +1070,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
-        sortingOrder: 21
+        sortingOrder: 22
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1086,7 +1094,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: eae45b5f-9c19-3cde-cbdb-23d37ea12e1d--eae45b5f-9c19-3cde-cbdb-23d37ea12e1d.material}
-        sortingOrder: 23
+        sortingOrder: 24
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1110,7 +1118,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 18f34fd1-8099-6e26-7ffe-37eb05cd79ed--18f34fd1-8099-6e26-7ffe-37eb05cd79ed.material}
-        sortingOrder: 22
+        sortingOrder: 23
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1134,7 +1142,7 @@ entities:
         enabled: true
         sharedMaterials:
           - {localId: 1, path: 5804c836-fc2b-9d7e-d957-17981466fa12--5804c836-fc2b-9d7e-d957-17981466fa12.material}
-        sortingOrder: 25
+        sortingOrder: 26
         autoSortingOrder: true
         useFrustumCulling: true
         receiveShadow: true
@@ -1145,12 +1153,142 @@ entities:
         mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
         castShadow: false
     layer: 0
+  - __class: Entity
+    name: Portrait
+    guid: {a: 13208016823524751072, b: 2179890916105603474}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 815002169818005293, b: 17784367239364846775}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: custom://f807936a-f3d4-d7ec-74cb-433900184c25}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 2
+  - __class: Entity
+    name: Background
+    guid: {a: 16811383973249102600, b: 3346391336959669415}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 50}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 6289723458098769780, b: 2797035531521945224}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-000000000024--00000000-0000-0000-0000-000000000024.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 288
+        ellipseY: 512
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 2
+  - __class: Entity
+    name: "Bling: V"
+    guid: {a: 6290841393697422204, b: 9468850126586894987}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 7512260164625359325, b: 5265601473607087505}
+        enabled: true
+        path: js/BlingComponent.js
+        properties:
+          __class: Map
+          Blend Mode: LINEARDODGE
+          Brightness: 0.7
+          Color1: {r: 1, g: 0.8251792, b: 0.2024832, a: 1}
+          Color2: {r: 1, g: 0.4785207, b: 0.03632076, a: 1}
+          Intensity: 0.7
+          Occlude Face: false
+          Opacity: 0
+          Pattern1: {localId: 1, path: 00000000-0000-0000-0000-00000000006a--00000000-0000-0000-0000-00000000006a.png}
+          Pattern2: None
+          Pattern3: None
+          Size: 0.6
+          Size Randomness: 0.7
+          Speed: 0.4
+    layer: 0
 visible: true
 config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: NONE
+  value: _4X
 jsScriptSystems:
   - js/GraphSystem.js
   - js/EditorInjectSystem.js
@@ -1187,6 +1325,7 @@ localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
   - {localId: 12}
+  - {localId: 48}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1253,7 +1392,7 @@ mobility:
 name: ""
 guid: {a: 1317163851456244208, b: 5697842180808021153}
 enabled: true
-localPosition: {x: -2.561138e-09, y: -0.192634, z: 0}
+localPosition: {x: -2.561138e-09, y: -0.1926341, z: 0}
 localScale: {x: 0.45, y: 0.45, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: -0}
 parent: {localId: 5}
@@ -1614,6 +1753,76 @@ localPosition: {x: -7, y: -2, z: 2.5}
 localScale: {x: 0.8, y: 0.8, z: 0.9999998}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !IFTransform2d &48
+name: ""
+guid: {a: 4992579474607467041, b: 3347979491918567359}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 49}
+  - {localId: 50}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2
+--- !IFTransform2d &49
+name: ""
+guid: {a: 15439393552894301347, b: 1066391451538126470}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -3
+--- !IFTransform2d &50
+name: ""
+guid: {a: 18108400076863842551, b: 13624797393861563832}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -4
+--- !Transform &51
+name: ""
+guid: {a: 4558418872947691065, b: 10801710200728844928}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic

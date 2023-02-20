@@ -6,11 +6,11 @@
     },
     "extraType": "ResItemMaterialOmtl",
     "name": "whiskers top R1",
-    "objGuid": "Guid(11044296884108984983, 5372937464918763176)",
+    "objGuid": "Guid(18105106870583362107, 9575511268128900763)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(8308092036569912207, 12640511014674311827)"
+    "skinObjGuid": "Guid(90277059805711154, 6184931916944607922)"
   }
 ]

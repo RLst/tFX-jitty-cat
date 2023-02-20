@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemTextureSequence",
     "name": "pet nose",
-    "objGuid": "Guid(10035013880751081979, 15409230793599797644)",
+    "objGuid": "Guid(12197358304805088746, 7604707357520890793)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
