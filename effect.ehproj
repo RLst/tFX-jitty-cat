@@ -1,6 +1,6 @@
 {
   "name": "jitty",
-  "lastModified": "Mon, 20 Feb 2023 09:19:53 GMT",
+  "lastModified": "Mon, 20 Feb 2023 14:23:24 GMT",
   "version": "1.9.1",
   "toolName": "Effect House",
   "projectID": "0439cb28-5421-bd9b-6248-47ac46895316",
@@ -75,9 +75,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 4069578168,
-  "durationCreation": 88407476,
-  "durationBackground": 46252476,
+  "durationToCreate": 4087789090,
+  "durationCreation": 106055635,
+  "durationBackground": 57533636,
   "effectHint": "smile",
   "templateID": "templateID_none",
   "overwriteBuiltinMakeup": false,
