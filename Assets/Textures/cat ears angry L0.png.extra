@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "17409e34-a9c6-2e7d-38d1-01b6d555ae98",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cat ears angry L0",
+    "objGuid": "Guid(14575951266214221637, 2683311055527301258)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

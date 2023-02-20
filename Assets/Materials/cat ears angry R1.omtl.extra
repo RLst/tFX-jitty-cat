@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "74e37757-4725-3fa3-c2c7-380cfc7fbff2",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "cat ears angry R1",
+    "objGuid": "Guid(1318223087273391826, 7408833052191337391)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(9459224279050542151, 10774701870176473005)"
+  }
+]

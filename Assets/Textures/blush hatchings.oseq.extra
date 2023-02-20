@@ -5,8 +5,8 @@
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
-    "name": "blush marks",
-    "objGuid": "Guid(17602900038711777166, 9955319073338823869)",
+    "name": "blush hatchings",
+    "objGuid": "Guid(6145485982951061481, 2523238055216502713)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

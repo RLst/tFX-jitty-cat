@@ -6,11 +6,11 @@
     },
     "extraType": "ResItemMaterialOmtl",
     "name": "whiskers side L0",
-    "objGuid": "Guid(12485049764576228013, 16297202340373021858)",
+    "objGuid": "Guid(8452840858582448312, 8467581216471767742)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(11332838671603876689, 10011928759480610739)"
+    "skinObjGuid": "Guid(14647588402466395555, 5733958737041230267)"
   }
 ]

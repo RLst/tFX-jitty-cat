@@ -111,7 +111,7 @@ entities:
     name: Head Tracker
     guid: {a: 12127606566413699711, b: 6960563224658714500}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 8}
       - __class: FaceCapture
@@ -366,7 +366,7 @@ entities:
         guid: {a: 17820465075493590835, b: 11039708907800661904}
         enabled: true
         sharedMaterials:
-          - {localId: 1, path: 5804c836-fc2b-9d7e-d957-17981466fa12--5804c836-fc2b-9d7e-d957-17981466fa12.material}
+          - {localId: 1, path: cb5a8f89-f982-f45e-3b86-1e0165525eac--cb5a8f89-f982-f45e-3b86-1e0165525eac.material}
         sortingOrder: 5
         autoSortingOrder: true
         useFrustumCulling: true
@@ -401,8 +401,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/5.png}
-        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--5.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/1.png}
+        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1270,8 +1270,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/762f41df-a54d-4f90-78a1-7b1b98470ab4/2.png}
-        imageAtlas: {localId: 2, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/762f41df-a54d-4f90-78a1-7b1b98470ab4/1.png}
+        imageAtlas: {localId: 2, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1465,8 +1465,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
-        imageAtlas: {localId: 3, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 3, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1678,8 +1678,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
-        imageAtlas: {localId: 3, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 3, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1845,8 +1845,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/29.png}
-        imageAtlas: {localId: 2, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--29.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/3.png}
+        imageAtlas: {localId: 2, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--3.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1980,7 +1980,7 @@ mobility:
 name: ""
 guid: {a: 3407866189663558974, b: 8755478706445077923}
 enabled: true
-localPosition: {x: 6, y: 12, z: -2.5}
+localPosition: {x: 6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.95, z: 1}
 localOrientation: {w: 0.9924039, x: 0.007596125, y: 0.0868241, z: 0.0868241}
 parent: {localId: 8}
@@ -1991,7 +1991,7 @@ mobility:
 name: ""
 guid: {a: 12341005675873862576, b: 17177021494770116248}
 enabled: true
-localPosition: {x: -6, y: 12, z: -2.5}
+localPosition: {x: -6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.95, z: 1}
 localOrientation: {w: 0.9924039, x: 0.007596125, y: -0.0868241, z: -0.0868241}
 parent: {localId: 8}
@@ -2114,7 +2114,7 @@ mobility:
 name: ""
 guid: {a: 6863521521053089926, b: 5900912619081330562}
 enabled: true
-localPosition: {x: 6, y: 12, z: -2.5}
+localPosition: {x: 6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 22}
@@ -2147,7 +2147,7 @@ mobility:
 name: ""
 guid: {a: 12775834805168197109, b: 8731813393374474140}
 enabled: true
-localPosition: {x: -6, y: 12, z: -2.5}
+localPosition: {x: -6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 22}
@@ -2209,7 +2209,7 @@ mobility:
 name: ""
 guid: {a: 16592012720066999164, b: 13558518464437786255}
 enabled: true
-localPosition: {x: 6, y: 12, z: -2.5}
+localPosition: {x: 6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 31}
@@ -2242,7 +2242,7 @@ mobility:
 name: ""
 guid: {a: 16304839497809818441, b: 5698568467669869211}
 enabled: true
-localPosition: {x: -6, y: 12, z: -2.5}
+localPosition: {x: -6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 31}
@@ -2304,7 +2304,7 @@ mobility:
 name: ""
 guid: {a: 16951680519219449911, b: 14653359617386684304}
 enabled: true
-localPosition: {x: 6, y: 12, z: -2.5}
+localPosition: {x: 6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 40}
@@ -2337,7 +2337,7 @@ mobility:
 name: ""
 guid: {a: 5426202968252354880, b: 9978062447245993353}
 enabled: true
-localPosition: {x: -6, y: 12, z: -2.5}
+localPosition: {x: -6.25, y: 13, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 40}

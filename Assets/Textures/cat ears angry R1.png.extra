@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "ab8556d3-9525-b616-eafb-ba47c6737ec1",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cat ears angry R1",
+    "objGuid": "Guid(2831126467890741576, 8705618334188846214)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]
