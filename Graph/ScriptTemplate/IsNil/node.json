@@ -7,7 +7,10 @@
 			"name": "Value",
 			"type": "any",
 			"description": "The input value",
-			"displayType": "Any"
+			"displayType": "Any",
+			"nameKey": "graph_is_null_input_value",
+			"descriptionKey": "graph_is_null_input_value_description",
+			"displayTypeKey": "graph_type_any"
 		}
 	],
 	"outputs": [
@@ -15,16 +18,22 @@
 			"name": "Result",
 			"type": "Bool",
 			"description": "If the input value is not valid, this value in true",
-			"displayType": "Boolean"
+			"displayType": "Boolean",
+			"nameKey": "graph_is_null_output_result",
+			"descriptionKey": "graph_is_null_output_result_description",
+			"displayTypeKey": "graph_type_boolean"
 		}
 	],
 	"js": "CGisNil.js",
 	"lua": "CGIsNil.lua",
 	"category": "Logic",
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"version": "1.1.0"
+	"version": "1.1.0",
+	"nameKey": "graph_is_null_name",
+	"categoryKey": "graph_category_logic",
+	"descriptionKey": "graph_is_null_description"
 }

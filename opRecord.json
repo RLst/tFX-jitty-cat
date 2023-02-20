@@ -1,0 +1,35 @@
+{
+  "projectId": "0439cb28-5421-bd9b-6248-47ac46895316",
+  "isFromTemplate": false,
+  "templateId": "",
+  "opMap": {
+    "PortChange": {
+      "count": 1726,
+      "seed": "2vglovv5"
+    },
+    "RemoveEdge": {
+      "count": 170,
+      "seed": "4cyvzhve"
+    },
+    "AddEdge": {
+      "count": 198,
+      "seed": "dvheunne"
+    },
+    "PropertyChange": {
+      "count": 26,
+      "seed": "phc5b4mn"
+    },
+    "SceneDefault": {
+      "count": 2,
+      "seed": "0e3v4t3k"
+    },
+    "RemoveNode": {
+      "count": 96,
+      "seed": "d5mfqqoo"
+    },
+    "AddNode": {
+      "count": 102,
+      "seed": "wsccyf8u"
+    }
+  }
+}

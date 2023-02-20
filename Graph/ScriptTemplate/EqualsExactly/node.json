@@ -9,7 +9,10 @@
 			"dynamic": true,
 			"default_value": "0",
 			"description": "The first input to compare",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_equal_input_a",
+			"descriptionKey": "graph_equal_input_a_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "B",
@@ -18,7 +21,10 @@
 			"dynamic": true,
 			"default_value": "0",
 			"description": "The second input to compare",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_equal_input_b",
+			"descriptionKey": "graph_equal_input_b_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "Tolerance",
@@ -26,8 +32,11 @@
 			"item_type": "",
 			"dynamic": false,
 			"default_value": "0.001",
-			"description": "You can use Tolerance to set an equal range. When Tolerance is negative, and A is within [B-:Tolerance:, B+:Tolerance:], then the output is false. When Tolerance is positive, and A is within [B-:Tolerance:, B+:Tolerance:], then the output is true.",
-			"displayType": "Number"
+			"description": "You can use Tolerance to set an equal range. When Tolerance is negative, and A is within [B-|Tolerance|, B+|Tolerance|], then the output is false. When Tolerance is positive, and A is within [B-|Tolerance|, B+|Tolerance|], then the output is true.",
+			"displayType": "Number",
+			"nameKey": "graph_equal_input_tolerance",
+			"descriptionKey": "graph_equal_input_tolerance_description",
+			"displayTypeKey": "graph_type_number"
 		}
 	],
 	"outputs": [
@@ -37,7 +46,10 @@
 			"item_type": "",
 			"dynamic": false,
 			"description": "If A and B are equal, this value is true. If they are not equal, this value is false.",
-			"displayType": "Boolean"
+			"displayType": "Boolean",
+			"nameKey": "graph_equal_output_ab",
+			"descriptionKey": "graph_equal_output_ab_description",
+			"displayTypeKey": "graph_type_boolean"
 		}
 	],
 	"js": "CGEqualsExactly.js",
@@ -56,9 +68,12 @@
 		"String"
 	],
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Equal"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Logic/Equal",
+	"nameKey": "graph_equal_name",
+	"categoryKey": "graph_category_logic",
+	"descriptionKey": "graph_equal_description"
 }

@@ -11,7 +11,15 @@
 				"Hand 1",
 				"Either"
 			],
-			"displayType": "String"
+			"displayType": "String",
+			"nameKey": "graph_gesture_detection_input_detect",
+			"descriptionKey": "graph_gesture_detection_input_detect_description",
+			"displayTypeKey": "graph_type_string",
+			"value_list_i18n_keys": [
+				"graph_gesture_detection_input_detect_valueList_hand_0",
+				"graph_gesture_detection_input_detect_valueList_hand_1",
+				"graph_gesture_detection_input_detect_valueList_either"
+			]
 		},
 		{
 			"name": "Gesture",
@@ -49,7 +57,42 @@
 				"Thumb down",
 				"Index and Middle Pointing Up"
 			],
-			"displayType": "String"
+			"displayType": "String",
+			"nameKey": "graph_gesture_detection_input_gesture",
+			"descriptionKey": "graph_gesture_detection_input_gesture_description",
+			"displayTypeKey": "graph_type_string",
+			"value_list_i18n_keys": [
+				"graph_gesture_detection_input_gesture_valueList_backhand_3-finger_pointing_up",
+				"graph_gesture_detection_input_gesture_valueList_4-finger_pointing_up",
+				"graph_gesture_detection_input_gesture_valueList_fist",
+				"graph_gesture_detection_input_gesture_valueList_open_palm",
+				"graph_gesture_detection_input_gesture_valueList_\"i_love_you\"",
+				"graph_gesture_detection_input_gesture_valueList_horns",
+				"graph_gesture_detection_input_gesture_valueList_index_finger_up",
+				"graph_gesture_detection_input_gesture_valueList_victory",
+				"graph_gesture_detection_input_gesture_valueList_thumb_up",
+				"graph_gesture_detection_input_gesture_valueList_hand_heart_(thumb_up)",
+				"graph_gesture_detection_input_gesture_valueList_hand_heart_(thumb_down)",
+				"graph_gesture_detection_input_gesture_valueList_open_fist_heart",
+				"graph_gesture_detection_input_gesture_valueList_finger_heart",
+				"graph_gesture_detection_input_gesture_valueList_index_pointing",
+				"graph_gesture_detection_input_gesture_valueList_2-finger_pointing",
+				"graph_gesture_detection_input_gesture_valueList_3-finger_pointing_up",
+				"graph_gesture_detection_input_gesture_valueList_ok",
+				"graph_gesture_detection_input_gesture_valueList_\"call_me\"",
+				"graph_gesture_detection_input_gesture_valueList_v_(thumb_and_index_)",
+				"graph_gesture_detection_input_gesture_valueList_touching_palms",
+				"graph_gesture_detection_input_gesture_valueList_kung_fu_salute_(fist_uncovered)",
+				"graph_gesture_detection_input_gesture_valueList_\"pray\"",
+				"graph_gesture_detection_input_gesture_valueList_palm_up",
+				"graph_gesture_detection_input_gesture_valueList_kung_fu_salute(fist_covered)",
+				"graph_gesture_detection_input_gesture_valueList_wrist_v",
+				"graph_gesture_detection_input_gesture_valueList_salute",
+				"graph_gesture_detection_input_gesture_valueList_palm_to_front",
+				"graph_gesture_detection_input_gesture_valueList_pinched_fingers",
+				"graph_gesture_detection_input_gesture_valueList_thumb_down",
+				"graph_gesture_detection_input_gesture_valueList_index_and_middle_pointing_up"
+			]
 		}
 	],
 	"outputs": [
@@ -57,25 +100,37 @@
 			"name": "Begin",
 			"description": "Execute the next node when the gesture is detected",
 			"type": "Pulse",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_gesture_detection_output_begin",
+			"descriptionKey": "graph_gesture_detection_output_begin_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Stay",
 			"description": "Keep executing the next node when the gesture stays in the scene",
 			"type": "Pulse",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_gesture_detection_output_stay",
+			"descriptionKey": "graph_gesture_detection_output_stay_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "End",
 			"description": "Execute the next node when the gesture disappeared",
 			"type": "Pulse",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_gesture_detection_output_end",
+			"descriptionKey": "graph_gesture_detection_output_end_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "None",
 			"description": "Keep executing the next node when no gesture is detected",
 			"type": "Pulse",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_gesture_detection_output_none",
+			"descriptionKey": "graph_gesture_detection_output_none_description",
+			"displayTypeKey": "graph_type_exec"
 		}
 	],
 	"js": "CGGestureDetection.js",
@@ -83,11 +138,16 @@
 	"category": "Hand",
 	"description": "Detect hand gestures in the scene. To preview gestures, click Preview > Hand.",
 	"productTypes": [
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
 	"graphAlgorithms": [
 		"2handGestureDetect"
 	],
 	"version": "1.0.1",
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Hand/Gesture-Detection"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Hand/Gesture-Detection",
+	"nameKey": "graph_gesture_detection_name",
+	"categoryKey": "graph_category_hand",
+	"descriptionKey": "graph_gesture_detection_description"
 }

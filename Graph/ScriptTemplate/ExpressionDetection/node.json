@@ -3,7 +3,7 @@
 	"id": "c4b0c8c1-cdd1-8f0e-936d-0944b30af5de",
 	"inputs": [
 		{
-			"name": "Which Face",
+			"name": "Detect",
 			"description": "The face to detect the expression. Face 0 represents the first face appearing in the scene, Face 4 represents the fifth face appearing in the scene. Any represents any face in the scene.",
 			"type": "String",
 			"value_list": [
@@ -14,7 +14,18 @@
 				"Face 4",
 				"Any"
 			],
-			"displayType": "String"
+			"displayType": "String",
+			"nameKey": "graph_facial_expression_detection_input_detect",
+			"descriptionKey": "graph_facial_expression_detection_input_detect_description",
+			"displayTypeKey": "graph_type_string",
+			"value_list_i18n_keys": [
+				"graph_facial_expression_detection_input_detect_valueList_face_0",
+				"graph_facial_expression_detection_input_detect_valueList_face_1",
+				"graph_facial_expression_detection_input_detect_valueList_face_2",
+				"graph_facial_expression_detection_input_detect_valueList_face_3",
+				"graph_facial_expression_detection_input_detect_valueList_face_4",
+				"graph_facial_expression_detection_input_detect_valueList_any"
+			]
 		},
 		{
 			"name": "Facial Expression",
@@ -29,7 +40,19 @@
 				"Neutral"
 			],
 			"description": "The  facial expression to detect, including Happy, Angry, Surprise, Disgust, Fear, Sad, Neutral",
-			"displayType": "String"
+			"displayType": "String",
+			"nameKey": "graph_facial_expression_detection_input_facialexpression",
+			"descriptionKey": "graph_facial_expression_detection_input_facialexpression_description",
+			"displayTypeKey": "graph_type_string",
+			"value_list_i18n_keys": [
+				"graph_facial_expression_detection_input_facialexpression_valueList_happy",
+				"graph_facial_expression_detection_input_facialexpression_valueList_angry",
+				"graph_facial_expression_detection_input_facialexpression_valueList_surprise",
+				"graph_facial_expression_detection_input_facialexpression_valueList_disgust",
+				"graph_facial_expression_detection_input_facialexpression_valueList_fear",
+				"graph_facial_expression_detection_input_facialexpression_valueList_sad",
+				"graph_facial_expression_detection_input_facialexpression_valueList_neutral"
+			]
 		}
 	],
 	"outputs": [
@@ -38,27 +61,39 @@
 			"type": "Pulse",
 			"item_type": "",
 			"description": "Execute the next node when the expression begins",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_facial_expression_detection_output_begin",
+			"descriptionKey": "graph_facial_expression_detection_output_begin_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Stay",
 			"type": "Pulse",
 			"item_type": "",
 			"description": "Keep executing the next node when the expression stays",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_facial_expression_detection_output_stay",
+			"descriptionKey": "graph_facial_expression_detection_output_stay_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "End",
 			"type": "Pulse",
 			"item_type": "",
 			"description": "Execute the next node when the expression ends",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_facial_expression_detection_output_end",
+			"descriptionKey": "graph_facial_expression_detection_output_end_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "None",
 			"description": "Keep executing the next node when no expression is on the certain face or the certain face is not in the scene",
 			"type": "Pulse",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_facial_expression_detection_output_none",
+			"descriptionKey": "graph_facial_expression_detection_output_none_description",
+			"displayTypeKey": "graph_type_exec"
 		}
 	],
 	"lua": "CGExpressionDetection.lua",
@@ -73,9 +108,12 @@
 	],
 	"description": "Detect facial expressions of people using this effect. To detect facial expression more than one face, assign a Face Expression Detection node to each face in the scene. It can detect up to five facial expressions.",
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Head-and-Face/Facial-Expression-Detection"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Head-and-Face/Facial-Expression-Detection",
+	"nameKey": "graph_facial_expression_detection_name",
+	"categoryKey": "graph_category_headface",
+	"descriptionKey": "graph_facial_expression_detection_description"
 }

@@ -7,19 +7,28 @@
 			"name": "Next",
 			"type": "Pulse",
 			"description": "Execute the next node when someone touches and holds the device screen",
-			"displayType": "Exec"
+			"displayType": "Exec",
+			"nameKey": "graph_screen_hold_output_next",
+			"descriptionKey": "graph_screen_hold_output_next_description",
+			"displayTypeKey": "graph_type_exec"
 		},
 		{
 			"name": "Duration",
 			"type": "Double",
 			"description": "The time of tapping and holding the screen in seconds",
-			"displayType": "Number"
+			"displayType": "Number",
+			"nameKey": "graph_screen_hold_output_duration",
+			"descriptionKey": "graph_screen_hold_output_duration_description",
+			"displayTypeKey": "graph_type_number"
 		},
 		{
 			"name": "Position",
 			"type": "Vector2f",
 			"description": "The 2D normalized position of the tapping point",
-			"displayType": "Vec2"
+			"displayType": "Vec2",
+			"nameKey": "graph_screen_hold_output_position",
+			"descriptionKey": "graph_screen_hold_output_position_description",
+			"displayTypeKey": "graph_type_vec2"
 		}
 	],
 	"js": "CGScreenHold.js",
@@ -37,9 +46,12 @@
 	],
 	"description": "Execute the next node when someone touches and holds the device screen for over 200 ms.",
 	"productTypes": [
-		"InHouse",
-		"Domestic",
-		"TTEH"
+		"TTEH",
+		"DYEH",
+		"EHI"
 	],
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Screen-Hold"
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Screen-Hold",
+	"nameKey": "graph_screen_hold_name",
+	"categoryKey": "graph_category_event",
+	"descriptionKey": "graph_screen_hold_description"
 }
