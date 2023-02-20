@@ -1,0 +1,45 @@
+{
+	"name": "Screen Hold",
+	"id": "902bdfb1-206d-b627-8211-4c7a661c3d97",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "Next",
+			"type": "Pulse",
+			"description": "Execute the next node when someone touches and holds the device screen",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Duration",
+			"type": "Double",
+			"description": "The time of tapping and holding the screen in seconds",
+			"displayType": "Number"
+		},
+		{
+			"name": "Position",
+			"type": "Vector2f",
+			"description": "The 2D normalized position of the tapping point",
+			"displayType": "Vec2"
+		}
+	],
+	"js": "CGScreenHold.js",
+	"scriptSupport": "all",
+	"version": "2.0.0",
+	"amazingVersion": "10.40.0",
+	"nodeEvent": [
+		"onCallBack",
+		"onDestroy",
+		"beforeStart"
+	],
+	"category": "Event",
+	"graphAlgorithms": [
+		"TouchGes"
+	],
+	"description": "Execute the next node when someone touches and holds the device screen for over 200 ms.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Screen-Hold"
+}
