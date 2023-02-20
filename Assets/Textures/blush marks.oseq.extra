@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "1d9d96da-675a-5c15-cd24-666f544fb45b",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "blush marks",
+    "objGuid": "Guid(11764094202927599187, 14660400781309492896)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512
+  }
+]

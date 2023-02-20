@@ -130,7 +130,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": false,
+    "expanded": true,
     "type": "none"
   },
   {
@@ -166,6 +166,141 @@
       "b": ""
     },
     "objGuid": "Guid(1317163851456244208, 5697842180808021153)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "cc6dc5f5-c312-6635-f22c-bbdd7db5661b",
+      "b": ""
+    },
+    "objGuid": "Guid(4129138817633288877, 6728524289976180127)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "fd63e13f-71b9-52f0-126c-ba64c0a3579d",
+      "b": ""
+    },
+    "objGuid": "Guid(5928584081794397657, 4004719653349171885)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "9bedd788-a22f-01d0-f060-4c86882f7e9c",
+      "b": ""
+    },
+    "objGuid": "Guid(452892415309318214, 15490518887605146517)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "9b51305f-2c34-8606-a5e2-142a9d880b7a",
+      "b": ""
+    },
+    "objGuid": "Guid(13781163433479748702, 16831668705140485821)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "f7996b00-fef7-b973-9df9-484c54e4b3d6",
+      "b": ""
+    },
+    "objGuid": "Guid(6506052585893301039, 1601323210185774989)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -1305,7 +1440,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "expanded": true,
+    "expanded": false,
     "type": "none"
   },
   {
@@ -2606,5 +2741,351 @@
     "pattern2": "00000000-0000-0000-0000-00000000006b",
     "pattern3": "00000000-0000-0000-0000-00000000006b",
     "speed": 0.4
+  },
+  {
+    "guid": {
+      "a": "f283cd84-ab13-413f-82e5-3071eb157c1a",
+      "b": ""
+    },
+    "objGuid": "Guid(17311858515193499438, 5157885022099618751)",
+    "extraType": "Entity",
+    "name": "Blush L",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "b207a4cf-a878-3754-6440-b1e3aeb5b3e6",
+      "b": ""
+    },
+    "objGuid": "Guid(5137514768950464990, 15485176946966851511)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "5d1f46cf-c83f-3499-6e69-eccebbd6ad98"
+  },
+  {
+    "guid": {
+      "a": "f6f4faf8-9f30-606c-518a-b5fcb3054227",
+      "b": ""
+    },
+    "objGuid": "Guid(1748102556521876339, 6042555056149766843)",
+    "extraType": "IFFaceAnchorAlignment",
+    "name": "Face Sticker",
+    "rttiType": "IFFaceAnchorAlignment",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_facesticker",
+    "expanded": true,
+    "editable": true,
+    "anchorType": "Custom Point"
+  },
+  {
+    "guid": {
+      "a": "8f5f92bb-39ef-5605-7caa-651b04f7bf39",
+      "b": ""
+    },
+    "objGuid": "Guid(4344208924209918212, 1412645999518775741)",
+    "extraType": "Entity",
+    "name": "Blush Marks L",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": false,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "89932e28-da3b-4fb5-27d3-f5b33ecee793",
+      "b": ""
+    },
+    "objGuid": "Guid(4777638350709290855, 5947117828616714636)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "5d1f46cf-c83f-3499-6e69-eccebbd6ad98"
+  },
+  {
+    "guid": {
+      "a": "2f54d4fa-3bb6-9fb7-2830-352ef08cfe2f",
+      "b": ""
+    },
+    "objGuid": "Guid(3840145846430793621, 12624397903632724892)",
+    "extraType": "IFFaceAnchorAlignment",
+    "name": "Face Sticker",
+    "rttiType": "IFFaceAnchorAlignment",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_facesticker",
+    "expanded": true,
+    "editable": true,
+    "anchorType": "Custom Point"
+  },
+  {
+    "guid": {
+      "a": "93b84109-91c2-89a6-d50f-c33b036d9eeb",
+      "b": ""
+    },
+    "objGuid": "Guid(4850253045119855079, 18109402336928588454)",
+    "extraType": "AnimationSequence",
+    "name": "Animation Sequence",
+    "rttiType": "AnimSeqComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_aniseq",
+    "expanded": true,
+    "editable": true,
+    "sequence": "1d9d96da-675a-5c15-cd24-666f544fb45b",
+    "targetProperty": "Albedo",
+    "playMode": 1
+  },
+  {
+    "guid": {
+      "a": "d9d9b682-1725-4b4b-2fca-492d5941bac0",
+      "b": ""
+    },
+    "objGuid": "Guid(11478206461323654121, 15570871676091796145)",
+    "extraType": "Entity",
+    "name": "Blush R",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "177e8631-0ea7-83ba-ff3c-0daab305a3c4",
+      "b": ""
+    },
+    "objGuid": "Guid(12197746876010780888, 17989438488962072732)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "5d1f46cf-c83f-3499-6e69-eccebbd6ad98"
+  },
+  {
+    "guid": {
+      "a": "4fdd5371-1dba-c5b2-5a06-fa60bf514067",
+      "b": ""
+    },
+    "objGuid": "Guid(1101199629491626443, 17062263864305398690)",
+    "extraType": "IFFaceAnchorAlignment",
+    "name": "Face Sticker",
+    "rttiType": "IFFaceAnchorAlignment",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_facesticker",
+    "expanded": true,
+    "editable": true,
+    "anchorType": "Custom Point"
+  },
+  {
+    "guid": {
+      "a": "794432f0-fc09-9b79-a13e-f3e5add81ce6",
+      "b": ""
+    },
+    "objGuid": "Guid(309993543973812484, 12833689805622322056)",
+    "extraType": "Entity",
+    "name": "Blush Marks R",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": false,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "ccc4af86-7b52-4435-97f9-68c5255c5c9a",
+      "b": ""
+    },
+    "objGuid": "Guid(957141422169843891, 10235752649047671446)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "5d1f46cf-c83f-3499-6e69-eccebbd6ad98"
+  },
+  {
+    "guid": {
+      "a": "1522c2b5-9fd3-eef5-4027-b6426cbaf396",
+      "b": ""
+    },
+    "objGuid": "Guid(3335738354406863561, 9940998066889875901)",
+    "extraType": "IFFaceAnchorAlignment",
+    "name": "Face Sticker",
+    "rttiType": "IFFaceAnchorAlignment",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_facesticker",
+    "expanded": true,
+    "editable": true,
+    "anchorType": "Custom Point"
+  },
+  {
+    "guid": {
+      "a": "5ac9bea1-d663-a9a0-1718-0dab5735f647",
+      "b": ""
+    },
+    "objGuid": "Guid(10107035589996618014, 13166506798117790351)",
+    "extraType": "AnimationSequence",
+    "name": "Animation Sequence",
+    "rttiType": "AnimSeqComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_aniseq",
+    "expanded": true,
+    "editable": true,
+    "sequence": "1d9d96da-675a-5c15-cd24-666f544fb45b",
+    "targetProperty": "Albedo",
+    "playMode": 1
+  },
+  {
+    "guid": {
+      "a": "5d56060b-6873-8a74-a3e1-f257dd5330a1",
+      "b": ""
+    },
+    "objGuid": "Guid(742856310975175377, 15052858832419318917)",
+    "extraType": "Entity",
+    "name": "Canvas",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "009fd07e-6f85-0511-53c9-33b35f7851c9",
+      "b": ""
+    },
+    "objGuid": "Guid(2542888139965465119, 10052835176247360946)",
+    "extraType": "IFTransform2d",
+    "name": "2D Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "IFTransform2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_2dtransform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "5fb56d06-8695-1939-7c06-839d8cfdf5ed",
+      "b": ""
+    },
+    "objGuid": "Guid(12054255404844334094, 2529103261121182852)",
+    "extraType": "IFLayer2d",
+    "name": "Canvas",
+    "rttiType": "IFLayer2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_canvas",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "45e6df78-e0c6-6d8d-13d4-ccdad91a4f3a",
+      "b": ""
+    },
+    "objGuid": "Guid(13854434307567075440, 14918068751081213114)",
+    "extraType": "IFCanvas2d",
+    "name": "Canvas Scaler",
+    "rttiType": "IFCanvas2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_canvasscaler",
+    "expanded": true,
+    "editable": true,
+    "scaleFactor": "Screen Size"
+  },
+  {
+    "guid": {
+      "a": "177cd645-be05-6cf0-74aa-722f3e704b3d",
+      "b": ""
+    },
+    "objGuid": "Guid(9316662140951173964, 6587279690299475115)",
+    "extraType": "Entity",
+    "name": "Blushes",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "0ad1f9ca-4fe7-2322-289e-496070de8919",
+      "b": ""
+    },
+    "objGuid": "Guid(8881144260246325469, 12664437073498214802)",
+    "extraType": "IFSprite2d",
+    "name": "Image",
+    "rttiType": "IFSprite2d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_image",
+    "expanded": true,
+    "editable": true,
+    "advanced": true,
+    "texture": "00000000-0000-0000-0000-00000000003e"
   }
 ]
