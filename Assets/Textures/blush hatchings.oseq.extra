@@ -7,7 +7,7 @@
     "extraType": "ResItemTextureSequence",
     "name": "blush hatchings",
     "expandInPanel": true,
-    "objGuid": "Guid(16019022844424222384, 17192313776330964646)",
+    "objGuid": "Guid(8883218130787956858, 17431072506098917019)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

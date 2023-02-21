@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "07df57b8-11ee-f59a-736a-722869d7ef9e",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "jitty tuts",
+    "expandInPanel": false,
+    "objGuid": "Guid(9965352438898348449, 12282680853299648177)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "Unregistered",
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 512
+  }
+]

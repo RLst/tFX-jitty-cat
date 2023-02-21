@@ -7,12 +7,12 @@
     "extraType": "ResItemMaterialOmtl",
     "name": "whiskers top L1",
     "expandInPanel": true,
-    "objGuid": "Guid(6722809155160815794, 5157341645529814180)",
+    "objGuid": "Guid(15871606389609909135, 4659576540615470246)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "skinObjGuid": "Guid(669021974334612816, 13372887819778842542)"
+    "skinObjGuid": "Guid(13277428483570562156, 4717421913953583795)"
   }
 ]
