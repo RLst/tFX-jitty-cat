@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "2b4a5125-8bb7-1562-6b74-33ceed896470",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "love",
+    "expandInPanel": false,
+    "objGuid": "Guid(12920112559270681587, 7138423760782770312)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "Unregistered",
+    "mccState": "SUCCESS"
+  }
+]
