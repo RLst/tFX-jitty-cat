@@ -4,32 +4,44 @@
   "templateId": "",
   "opMap": {
     "PortChange": {
-      "count": 1726,
-      "seed": "2vglovv5"
+      "count": 2787,
+      "seed": "32uxbbe8"
     },
     "RemoveEdge": {
-      "count": 170,
-      "seed": "4cyvzhve"
+      "count": 320,
+      "seed": "8vbjh3uo"
     },
     "AddEdge": {
-      "count": 198,
-      "seed": "dvheunne"
+      "count": 404,
+      "seed": "jknfwipl"
     },
     "PropertyChange": {
-      "count": 26,
-      "seed": "phc5b4mn"
+      "count": 264,
+      "seed": "hmzhlrg3"
     },
     "SceneDefault": {
-      "count": 2,
-      "seed": "0e3v4t3k"
+      "count": 18,
+      "seed": "hkahwi1a"
     },
     "RemoveNode": {
-      "count": 96,
-      "seed": "d5mfqqoo"
+      "count": 201,
+      "seed": "50on2cky"
     },
     "AddNode": {
-      "count": 102,
-      "seed": "wsccyf8u"
+      "count": 285,
+      "seed": "shp5dkk6"
+    },
+    "AddEntity": {
+      "count": 35,
+      "seed": "l2fd6xwy"
+    },
+    "RemoveEntity": {
+      "count": 5,
+      "seed": "6q0c729m"
+    },
+    "GroupNodes": {
+      "count": 2,
+      "seed": "z66v4l9u"
     }
   }
 }

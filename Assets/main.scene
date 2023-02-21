@@ -90,7 +90,7 @@ entities:
           value: Normal
         blendAlpha: 1
         blendAlphaCkeck: true
-        drawCallNum: 10
+        drawCallNum: 26
         maskType:
           __class: IFMaskType
           value: None
@@ -108,7 +108,7 @@ entities:
         resolutionSize: {x: 720, y: 1280}
     layer: 1
   - __class: Entity
-    name: Head Tracker
+    name: Head Tracker 0
     guid: {a: 12127606566413699711, b: 6960563224658714500}
     scene: {localId: 1}
     selfvisible: true
@@ -145,7 +145,7 @@ entities:
           value: ROTATE_AROUND_XYZ_AXIS
     layer: 0
   - __class: Entity
-    name: Head Tracker (1)
+    name: Head Tracker 1
     guid: {a: 5927371963602416176, b: 8523117937955531652}
     scene: {localId: 1}
     selfvisible: true
@@ -182,7 +182,7 @@ entities:
           value: ROTATE_AROUND_XYZ_AXIS
     layer: 0
   - __class: Entity
-    name: Head Tracker (2)
+    name: Head Tracker 2
     guid: {a: 16303323856821502668, b: 11522570838700092544}
     scene: {localId: 1}
     selfvisible: true
@@ -219,7 +219,7 @@ entities:
           value: ROTATE_AROUND_XYZ_AXIS
     layer: 0
   - __class: Entity
-    name: Head Tracker (3)
+    name: Head Tracker 3
     guid: {a: 13494217950936666196, b: 17873840575140412093}
     scene: {localId: 1}
     selfvisible: true
@@ -310,7 +310,7 @@ entities:
     name: Head
     guid: {a: 10972473111684705442, b: 14850499784477883285}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 9}
       - __class: MeshRenderer
@@ -379,7 +379,7 @@ entities:
         castShadow: false
     layer: 0
   - __class: Entity
-    name: Nose All
+    name: Nose ALL
     guid: {a: 5136179467981824055, b: 5191406859742508223}
     scene: {localId: 1}
     selfvisible: true
@@ -401,8 +401,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/3.png}
-        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--3.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/1.png}
+        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -479,7 +479,7 @@ entities:
         name: ""
         guid: {a: 11406476161238200212, b: 16259467842679672245}
         enabled: true
-        animSeq: {localId: 10, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
+        animSeq: {localId: 11, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -492,7 +492,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          pet nose: {localId: 10, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
+          pet nose: {localId: 11, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
     layer: 1
   - __class: Entity
     name: Right Top Whiskers
@@ -770,7 +770,7 @@ entities:
     name: Head
     guid: {a: 8305115280392122652, b: 14804673634123147143}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 23}
       - __class: MeshRenderer
@@ -938,7 +938,7 @@ entities:
     name: Head
     guid: {a: 14862608351879702950, b: 963572018330309780}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 32}
       - __class: MeshRenderer
@@ -1106,7 +1106,7 @@ entities:
     name: Head
     guid: {a: 3336347434882453374, b: 17001979314387679881}
     scene: {localId: 1}
-    selfvisible: true
+    selfvisible: false
     components:
       - {localId: 41}
       - __class: MeshRenderer
@@ -1260,7 +1260,7 @@ entities:
         name: ""
         guid: {a: 6289723458098769780, b: 2797035531521945224}
         enabled: true
-        alpha: 0.800000011920929
+        alpha: 0
         cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
@@ -1304,7 +1304,7 @@ entities:
         name: ""
         guid: {a: 14863960989338338034, b: 3150294275881982855}
         enabled: true
-        animSeq: {localId: 5, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
+        animSeq: {localId: 6, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1317,7 +1317,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anim heart: {localId: 5, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
+          anim heart: {localId: 6, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
     layer: 2
   - __class: Entity
     name: "Bling: V"
@@ -1343,7 +1343,7 @@ entities:
           Pattern1: {localId: 1, path: 00000000-0000-0000-0000-00000000006a--00000000-0000-0000-0000-00000000006a.png}
           Pattern2: None
           Pattern3: None
-          Size: 0.6
+          Size: 0.4
           Size Randomness: 0.7
           Speed: 0.4
     layer: 0
@@ -1439,7 +1439,7 @@ entities:
         trackOptions:
           __class: IFAnchorAlignmentTrackOption
           value: TrackWithIndex
-        IdorIndexNumber: [0, 1, 2, 3]
+        IdorIndexNumber: [0]
         gender:
           __class: IFGenderType
           value: None
@@ -1467,8 +1467,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1537,7 +1537,7 @@ entities:
         trackOptions:
           __class: IFAnchorAlignmentTrackOption
           value: TrackWithIndex
-        IdorIndexNumber: [0, 1, 2, 3]
+        IdorIndexNumber: [0]
         gender:
           __class: IFGenderType
           value: None
@@ -1545,7 +1545,7 @@ entities:
         name: ""
         guid: {a: 4850253045119855079, b: 18109402336928588454}
         enabled: true
-        animSeq: {localId: 8, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1558,7 +1558,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 8, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blush R
@@ -1652,7 +1652,7 @@ entities:
         trackOptions:
           __class: IFAnchorAlignmentTrackOption
           value: TrackWithIndex
-        IdorIndexNumber: [0, 1, 2, 3]
+        IdorIndexNumber: [0]
         gender:
           __class: IFGenderType
           value: None
@@ -1680,8 +1680,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1750,7 +1750,7 @@ entities:
         trackOptions:
           __class: IFAnchorAlignmentTrackOption
           value: TrackWithIndex
-        IdorIndexNumber: [0, 1, 2, 3]
+        IdorIndexNumber: [0]
         gender:
           __class: IFGenderType
           value: None
@@ -1758,7 +1758,7 @@ entities:
         name: ""
         guid: {a: 10107035589996618014, b: 13166506798117790351}
         enabled: true
-        animSeq: {localId: 8, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1771,7 +1771,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 8, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blushes 0
@@ -1835,7 +1835,7 @@ entities:
         name: ""
         guid: {a: 8164308850942567330, b: 7638732415976571034}
         enabled: true
-        alpha: 0.4000000059604645
+        alpha: 0
         cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
@@ -1847,8 +1847,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/41.png}
-        imageAtlas: {localId: 1, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--41.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/45.png}
+        imageAtlas: {localId: 1, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--45.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1879,7 +1879,7 @@ entities:
         name: ""
         guid: {a: 10470584359748705862, b: 8049909636227180958}
         enabled: true
-        animSeq: {localId: 7, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
+        animSeq: {localId: 8, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1892,7 +1892,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anim fireworks: {localId: 7, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
+          anim fireworks: {localId: 8, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
     layer: 2
   - __class: Entity
     name: General
@@ -1907,7 +1907,7 @@ entities:
         enabled: true
         outputTextures:
           - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
-        renderOrder: 0
+        renderOrder: 8001
         minorOrder: 0
         type:
           __class: EffectNodeTag
@@ -1917,6 +1917,1901 @@ entities:
           __class: RendererType
           value: Metal
     layer: 0
+  - __class: Entity
+    name: Blush R
+    guid: {a: 13060956118842025543, b: 4574353032667550896}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 64}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 1390952065988854969, b: 7882908960871703434}
+        enabled: true
+        alpha: 0.6000000238418579
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 5d1f46cf-c83f-3499-6e69-eccebbd6ad98--5d1f46cf-c83f-3499-6e69-eccebbd6ad98.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 9026078531997584298, b: 17197531977140903092}
+        enabled: false
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [27]
+        weights1: [1]
+        anchor1: {x: 0.1111321, y: 0.5139911}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 1, y: 1}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [1]
+        gender:
+          __class: IFGenderType
+          value: None
+    layer: 1
+  - __class: Entity
+    name: Blush L
+    guid: {a: 8667599633808947202, b: 9936998892068846243}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 62}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 7010126763032934768, b: 17352175581905652889}
+        enabled: true
+        alpha: 0.6000000238418579
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 5d1f46cf-c83f-3499-6e69-eccebbd6ad98--5d1f46cf-c83f-3499-6e69-eccebbd6ad98.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 17314741691779817719, b: 16537616178976051109}
+        enabled: false
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [5]
+        weights1: [1]
+        anchor1: {x: 0.07750762, y: 0.465241}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 1, y: 1}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [1]
+        gender:
+          __class: IFGenderType
+          value: None
+    layer: 1
+  - __class: Entity
+    name: Blush Marks R
+    guid: {a: 6651154765004314363, b: 3311617619699093931}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 63}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 11836455974304407128, b: 968437385986754748}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 453097467082353091, b: 9832578427662292877}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [76]
+        weights1: [1]
+        anchor1: {x: 0.3728841, y: 0.8954102}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.3, y: 0.3}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [1]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 2903383955373901272, b: 17779243242381222540}
+        enabled: true
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: random
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+    layer: 1
+  - __class: Entity
+    name: Blushes 1
+    guid: {a: 2182024235082655637, b: 15325724591289160857}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 60}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 8813361417967653564, b: 2167398499502196130}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Blush Marks L
+    guid: {a: 5282563087103314991, b: 3239386919771884460}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 61}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 1965173090299744470, b: 1911181760897560496}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 3047656460340654391, b: 622357871861966998}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [73]
+        weights1: [1]
+        anchor1: {x: 0.6091862, y: 0.8964453}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.3, y: 0.3}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [1]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 17243622943648209179, b: 5382123711197728416}
+        enabled: true
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: random
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+    layer: 1
+  - __class: Entity
+    name: Blush Marks R
+    guid: {a: 4414777648621544909, b: 12524231778231015862}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 68}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 955461665450139336, b: 9233884847503820210}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 7800670826801786961, b: 17328385451112832913}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [76]
+        weights1: [1]
+        anchor1: {x: 0.3728841, y: 0.8954102}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.3, y: 0.3}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [2]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 15801225715449536610, b: 15569109948189775749}
+        enabled: true
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: random
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+    layer: 1
+  - __class: Entity
+    name: Blush R
+    guid: {a: 1028526844413196782, b: 5672097856428992442}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 69}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 1459793703588942181, b: 3674588801762063278}
+        enabled: true
+        alpha: 0.6000000238418579
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 5d1f46cf-c83f-3499-6e69-eccebbd6ad98--5d1f46cf-c83f-3499-6e69-eccebbd6ad98.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 2685746769324738157, b: 12032873961708591550}
+        enabled: false
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [27]
+        weights1: [1]
+        anchor1: {x: 0.1111321, y: 0.5139911}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 1, y: 1}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [2]
+        gender:
+          __class: IFGenderType
+          value: None
+    layer: 1
+  - __class: Entity
+    name: Blushes 2
+    guid: {a: 883640783475455049, b: 14559039694097797301}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 65}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 17316320369855811469, b: 8226626490157664182}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Blush Marks L
+    guid: {a: 14934221418380809350, b: 1174038520067253935}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 66}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 4630721630365506884, b: 18337347484015403658}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 739277290262461706, b: 8864599886122064818}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [73]
+        weights1: [1]
+        anchor1: {x: 0.6091862, y: 0.8964453}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.3, y: 0.3}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [2]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 12486677850765832582, b: 5657468697915710882}
+        enabled: true
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: random
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+    layer: 1
+  - __class: Entity
+    name: Blush L
+    guid: {a: 15946015376004154149, b: 2328864332610959489}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 67}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 7080185494075737370, b: 2813862670336619401}
+        enabled: true
+        alpha: 0.6000000238418579
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 5d1f46cf-c83f-3499-6e69-eccebbd6ad98--5d1f46cf-c83f-3499-6e69-eccebbd6ad98.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 8884622212426062654, b: 1616636518784272520}
+        enabled: false
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [5]
+        weights1: [1]
+        anchor1: {x: 0.07750762, y: 0.465241}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 1, y: 1}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [2]
+        gender:
+          __class: IFGenderType
+          value: None
+    layer: 1
+  - __class: Entity
+    name: Blush Marks R
+    guid: {a: 17241930714674456526, b: 2549842304885404597}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 73}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 18179324631072113022, b: 2196159465790508678}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 16087768766930304626, b: 12775836845441741716}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [76]
+        weights1: [1]
+        anchor1: {x: 0.3728841, y: 0.8954102}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.3, y: 0.3}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [3]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 12991259710905275299, b: 3653336523315673995}
+        enabled: true
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: random
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+    layer: 1
+  - __class: Entity
+    name: Blushes 3
+    guid: {a: 16737721419596688793, b: 2637661809393719474}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 70}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 3479727612061707012, b: 16570962293677537427}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Blush Marks L
+    guid: {a: 5424348499507814908, b: 16359960316286001074}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 71}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 15584385644648542344, b: 795134480127145353}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 10757777267401003426, b: 16760981640242258605}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [73]
+        weights1: [1]
+        anchor1: {x: 0.6091862, y: 0.8964453}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.3, y: 0.3}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [3]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 3407129789749536743, b: 8750994137153603210}
+        enabled: true
+        animSeq: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: random
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          blush hatchings: {localId: 9, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+    layer: 1
+  - __class: Entity
+    name: Blush L
+    guid: {a: 17315645092840272504, b: 17511063589838669197}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 72}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 8308485802203401130, b: 2484933808211740802}
+        enabled: true
+        alpha: 0.6000000238418579
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 5d1f46cf-c83f-3499-6e69-eccebbd6ad98--5d1f46cf-c83f-3499-6e69-eccebbd6ad98.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 4201630018502539533, b: 17137616084317714059}
+        enabled: false
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [5]
+        weights1: [1]
+        anchor1: {x: 0.07750762, y: 0.465241}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 1, y: 1}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [3]
+        gender:
+          __class: IFGenderType
+          value: None
+    layer: 1
+  - __class: Entity
+    name: Blush R
+    guid: {a: 1317389485924960808, b: 8066999862184228019}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 74}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 9461217845317834484, b: 11462275172871732114}
+        enabled: true
+        alpha: 0.6000000238418579
+        cascadeAlphaEnabled: true
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 5d1f46cf-c83f-3499-6e69-eccebbd6ad98--5d1f46cf-c83f-3499-6e69-eccebbd6ad98.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 4993812982636874003, b: 7252576428428503223}
+        enabled: false
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [27]
+        weights1: [1]
+        anchor1: {x: 0.1111321, y: 0.5139911}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 1, y: 1}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [3]
+        gender:
+          __class: IFGenderType
+          value: None
+    layer: 1
+  - __class: Entity
+    name: Anger Veins 0
+    guid: {a: 13926202319589217688, b: 2446946108138110082}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 75}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 17387798165615905493, b: 6605190373385901966}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.2474241, b: 0.1166836, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 5855300388132845056, b: 4194067933811794564}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [40]
+        weights1: [1]
+        anchor1: {x: 0.4968054, y: 0.05942133}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.45, y: 0.45}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [0]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 3192796834173620585, b: 11572052860960002950}
+        enabled: true
+        animSeq: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          anger veins: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+    layer: 1
+  - __class: Entity
+    name: Anger Veins 1
+    guid: {a: 93060532830859852, b: 5052591101913581478}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 76}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 16305064848026702526, b: 18187168430095411328}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.2474241, b: 0.1166836, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 3624501726122035194, b: 13120644572721888680}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [40]
+        weights1: [1]
+        anchor1: {x: 0.4968054, y: 0.05942133}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.45, y: 0.45}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [1]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 813340242402287547, b: 16502548484080237752}
+        enabled: true
+        animSeq: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          anger veins: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+    layer: 1
+  - __class: Entity
+    name: Anger Veins 2
+    guid: {a: 3335296685245531548, b: 1774722278108517800}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 77}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 5570845659927704565, b: 2610262826971172011}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.2474241, b: 0.1166836, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 10974145482710157291, b: 11848927299942280109}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [40]
+        weights1: [1]
+        anchor1: {x: 0.4968054, y: 0.05942133}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.45, y: 0.45}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [2]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 7441285571153534858, b: 1991834318509432466}
+        enabled: true
+        animSeq: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          anger veins: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+    layer: 1
+  - __class: Entity
+    name: Anger Veins 3
+    guid: {a: 16232165534131969889, b: 12006261501446170774}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 78}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 13064298297675259320, b: 10816287708771925661}
+        enabled: true
+        alpha: 0
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 0.2474241, b: 0.1166836, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+      - __class: IFFaceAnchorAlignment
+        name: ""
+        guid: {a: 7732532034738493177, b: 2232930206073744284}
+        enabled: true
+        pseudo3DType:
+          __class: IFPseudo3DType
+          value: Horizontal
+        targetNum: 1
+        alignType:
+          __class: IFAnchorAlignmentType
+          value: AlignOneAnchor
+        indexs1: [40]
+        weights1: [1]
+        anchor1: {x: 0.4968054, y: 0.05942133}
+        indexs2: [77]
+        weights2: [1]
+        anchor2: {x: 1, y: 1}
+        indexs3: [8]
+        weights3: [1]
+        anchor3: {x: 0, y: 0}
+        indexs4: [24]
+        weights4: [1]
+        anchor4: {x: 1, y: 0}
+        useScaleX: true
+        scaleXStartIndex: 74
+        scaleXEndIndex: 77
+        scaleXFactor: 2.10253119468689
+        useScaleY: false
+        scaleYStartIndex: 43
+        scaleYEndIndex: 49
+        scaleYFactor: 2.88289999961853
+        rotationType:
+          __class: IFRotationType
+          value: Algorithm
+        rotation: 0
+        presetScale: {x: 0.45, y: 0.45}
+        sendLocation: false
+        arcAlign: false
+        arcProportion: 0
+        trackOptions:
+          __class: IFAnchorAlignmentTrackOption
+          value: TrackWithIndex
+        IdorIndexNumber: [3]
+        gender:
+          __class: IFGenderType
+          value: None
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 3192341492305362822, b: 4482919658689782441}
+        enabled: true
+        animSeq: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        texName: Albedo
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 3
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          anger veins: {localId: 4, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+    layer: 1
 visible: true
 config:
   __class: Map
@@ -1965,7 +3860,14 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 59}
 children:
   - {localId: 12}
+  - {localId: 75}
+  - {localId: 76}
+  - {localId: 77}
+  - {localId: 78}
   - {localId: 56}
+  - {localId: 60}
+  - {localId: 65}
+  - {localId: 70}
   - {localId: 48}
 mobility:
   __class: Mobility
@@ -2012,7 +3914,7 @@ mobility:
 name: ""
 guid: {a: 3407866189663558974, b: 8755478706445077923}
 enabled: true
-localPosition: {x: 6.25, y: 13, z: -2.5}
+localPosition: {x: 6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.95, z: 1}
 localOrientation: {w: 0.9924039, x: 0.007596125, y: 0.0868241, z: 0.0868241}
 parent: {localId: 8}
@@ -2023,7 +3925,7 @@ mobility:
 name: ""
 guid: {a: 12341005675873862576, b: 17177021494770116248}
 enabled: true
-localPosition: {x: -6.25, y: 13, z: -2.5}
+localPosition: {x: -6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.95, z: 1}
 localOrientation: {w: 0.9924039, x: 0.007596125, y: -0.0868241, z: -0.0868241}
 parent: {localId: 8}
@@ -2149,7 +4051,7 @@ mobility:
 name: ""
 guid: {a: 6863521521053089926, b: 5900912619081330562}
 enabled: true
-localPosition: {x: 6.25, y: 13, z: -2.5}
+localPosition: {x: 6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 22}
@@ -2182,7 +4084,7 @@ mobility:
 name: ""
 guid: {a: 12775834805168197109, b: 8731813393374474140}
 enabled: true
-localPosition: {x: -6.25, y: 13, z: -2.5}
+localPosition: {x: -6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 22}
@@ -2245,7 +4147,7 @@ mobility:
 name: ""
 guid: {a: 16592012720066999164, b: 13558518464437786255}
 enabled: true
-localPosition: {x: 6.25, y: 13, z: -2.5}
+localPosition: {x: 6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 31}
@@ -2278,7 +4180,7 @@ mobility:
 name: ""
 guid: {a: 16304839497809818441, b: 5698568467669869211}
 enabled: true
-localPosition: {x: -6.25, y: 13, z: -2.5}
+localPosition: {x: -6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 31}
@@ -2341,7 +4243,7 @@ mobility:
 name: ""
 guid: {a: 16951680519219449911, b: 14653359617386684304}
 enabled: true
-localPosition: {x: 6.25, y: 13, z: -2.5}
+localPosition: {x: 6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: 0.08682411, z: 0.0868241}
 parent: {localId: 40}
@@ -2374,7 +4276,7 @@ mobility:
 name: ""
 guid: {a: 5426202968252354880, b: 9978062447245993353}
 enabled: true
-localPosition: {x: -6.25, y: 13, z: -2.5}
+localPosition: {x: -6.25, y: 12.25, z: -2.5}
 localScale: {x: 0.95, y: 0.9499999, z: 0.9999999}
 localOrientation: {w: 0.9924039, x: 0.007596126, y: -0.08682411, z: -0.0868241}
 parent: {localId: 40}
@@ -2425,7 +4327,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -7
+depth: -26
 --- !IFTransform2d &49
 name: ""
 guid: {a: 15439393552894301347, b: 1066391451538126470}
@@ -2444,7 +4346,7 @@ size: {x: 720, y: 1280}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -8
+depth: -27
 --- !IFTransform2d &50
 name: ""
 guid: {a: 18108400076863842551, b: 13624797393861563832}
@@ -2463,7 +4365,7 @@ size: {x: 720, y: 1280}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -9
+depth: -28
 --- !Transform &51
 name: ""
 guid: {a: 4558418872947691065, b: 10801710200728844928}
@@ -2493,7 +4395,7 @@ size: {x: 512, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -4
+depth: -8
 --- !IFTransform2d &53
 name: ""
 guid: {a: 5928584081794397657, b: 4004719653349171885}
@@ -2514,7 +4416,7 @@ size: {x: 512, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -3
+depth: -7
 --- !IFTransform2d &54
 name: ""
 guid: {a: 13781163433479748702, b: 16831668705140485821}
@@ -2535,7 +4437,7 @@ size: {x: 512, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -5
+depth: -9
 --- !IFTransform2d &55
 name: ""
 guid: {a: 6506052585893301039, b: 1601323210185774989}
@@ -2554,7 +4456,7 @@ size: {x: 512, y: 512}
 pivot: {x: 0.5, y: 0.5}
 flipX: true
 flipY: false
-depth: -6
+depth: -10
 --- !IFTransform2d &56
 name: ""
 guid: {a: 4129138817633288877, b: 6728524289976180127}
@@ -2576,7 +4478,7 @@ size: {x: 1, y: 1}
 pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
-depth: -2
+depth: -6
 --- !IFTransform2d &58
 name: ""
 guid: {a: 17963027576699837258, b: 5528007687197653402}
@@ -2595,7 +4497,7 @@ size: {x: 1024, y: 1024}
 pivot: {x: 0.5, y: 0.5}
 flipX: true
 flipY: false
-depth: -10
+depth: -29
 --- !Transform &59
 name: ""
 guid: {a: 3191172181166319887, b: 14145913147480209823}
@@ -2617,3 +4519,385 @@ children:
 mobility:
   __class: Mobility
   value: Dynamic
+--- !IFTransform2d &60
+name: ""
+guid: {a: 11188701793448923654, b: 16811873073509096892}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 61}
+  - {localId: 63}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 1, y: 1}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -11
+--- !IFTransform2d &61
+name: ""
+guid: {a: 90699100611702990, b: 12412734857056675459}
+enabled: true
+localPosition: {x: -0.2265625, y: -0.140625, z: 0}
+localScale: {x: 0.3, y: 0.3, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 60}
+children:
+  - {localId: 62}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -145, y: -90}
+rotation: 0
+scale: {x: 0.3, y: 0.3}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -12
+--- !IFTransform2d &62
+name: ""
+guid: {a: 17170685222186137771, b: 1702362068657043613}
+enabled: true
+localPosition: {x: -0.0984375, y: -0.2984375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 61}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -63, y: -191}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -13
+--- !IFTransform2d &63
+name: ""
+guid: {a: 11621535700330918111, b: 2409993435940972936}
+enabled: true
+localPosition: {x: 0.2265625, y: -0.140625, z: 0}
+localScale: {x: 0.3, y: 0.3, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 60}
+children:
+  - {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145, y: -90}
+rotation: 0
+scale: {x: 0.3, y: 0.3}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -14
+--- !IFTransform2d &64
+name: ""
+guid: {a: 5854976020355114892, b: 13021276026429935235}
+enabled: true
+localPosition: {x: 0.1467754, y: -0.3118128, z: 0}
+localScale: {x: -1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 63}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 93.93627, y: -199.5602}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: true
+flipY: false
+depth: -15
+--- !IFTransform2d &65
+name: ""
+guid: {a: 14793084419186419332, b: 5589578195100725410}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 66}
+  - {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 1, y: 1}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -16
+--- !IFTransform2d &66
+name: ""
+guid: {a: 12196747338675547352, b: 3750772105574292370}
+enabled: true
+localPosition: {x: -0.2265625, y: -0.140625, z: 0}
+localScale: {x: 0.3, y: 0.3, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 65}
+children:
+  - {localId: 67}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -145, y: -90}
+rotation: 0
+scale: {x: 0.3, y: 0.3}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -17
+--- !IFTransform2d &67
+name: ""
+guid: {a: 5712761398826687141, b: 3035947728065689262}
+enabled: true
+localPosition: {x: -0.0984375, y: -0.2984375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 66}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -63, y: -191}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -18
+--- !IFTransform2d &68
+name: ""
+guid: {a: 9531128558125077065, b: 5765837138944292240}
+enabled: true
+localPosition: {x: 0.2265625, y: -0.140625, z: 0}
+localScale: {x: 0.3, y: 0.3, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 65}
+children:
+  - {localId: 69}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145, y: -90}
+rotation: 0
+scale: {x: 0.3, y: 0.3}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -19
+--- !IFTransform2d &69
+name: ""
+guid: {a: 3552156260608985359, b: 9522213794362297225}
+enabled: true
+localPosition: {x: 0.1467754, y: -0.3118128, z: 0}
+localScale: {x: -1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 93.93627, y: -199.5602}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: true
+flipY: false
+depth: -20
+--- !IFTransform2d &70
+name: ""
+guid: {a: 3982228312550353254, b: 8167622012352078265}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 71}
+  - {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 1, y: 1}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -21
+--- !IFTransform2d &71
+name: ""
+guid: {a: 10325011944009321575, b: 3092259445306936492}
+enabled: true
+localPosition: {x: -0.2265625, y: -0.140625, z: 0}
+localScale: {x: 0.3, y: 0.3, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 70}
+children:
+  - {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -145, y: -90}
+rotation: 0
+scale: {x: 0.3, y: 0.3}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -22
+--- !IFTransform2d &72
+name: ""
+guid: {a: 813006603735521756, b: 17368513900313463182}
+enabled: true
+localPosition: {x: -0.0984375, y: -0.2984375, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 71}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: -63, y: -191}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -23
+--- !IFTransform2d &73
+name: ""
+guid: {a: 1391338029999167109, b: 15333531995963948734}
+enabled: true
+localPosition: {x: 0.2265625, y: -0.140625, z: 0}
+localScale: {x: 0.3, y: 0.3, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 70}
+children:
+  - {localId: 74}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145, y: -90}
+rotation: 0
+scale: {x: 0.3, y: 0.3}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -24
+--- !IFTransform2d &74
+name: ""
+guid: {a: 10254662048354695367, b: 7170683114377161379}
+enabled: true
+localPosition: {x: 0.1467754, y: -0.3118128, z: 0}
+localScale: {x: -1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 93.93627, y: -199.5602}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: true
+flipY: false
+depth: -25
+--- !IFTransform2d &75
+name: ""
+guid: {a: 14863583556935470881, b: 1048851244166926490}
+enabled: true
+localPosition: {x: 0.2275812, y: 0.2846802, z: 0}
+localScale: {x: 0.45, y: 0.45, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145.652, y: 182.1953}
+rotation: 0
+scale: {x: 0.45, y: 0.45}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2
+--- !IFTransform2d &76
+name: ""
+guid: {a: 4919780351041386961, b: 15858463524839015102}
+enabled: true
+localPosition: {x: 0.2275812, y: 0.2846802, z: 0}
+localScale: {x: 0.45, y: 0.45, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145.652, y: 182.1953}
+rotation: 0
+scale: {x: 0.45, y: 0.45}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -3
+--- !IFTransform2d &77
+name: ""
+guid: {a: 597687573117141266, b: 15681390570271105931}
+enabled: true
+localPosition: {x: 0.2275812, y: 0.2846802, z: 0}
+localScale: {x: 0.45, y: 0.45, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145.652, y: 182.1953}
+rotation: 0
+scale: {x: 0.45, y: 0.45}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -4
+--- !IFTransform2d &78
+name: ""
+guid: {a: 10250345993040763596, b: 21946813470579901}
+enabled: true
+localPosition: {x: 0.2275812, y: 0.2846802, z: 0}
+localScale: {x: 0.45, y: 0.45, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 145.652, y: 182.1953}
+rotation: 0
+scale: {x: 0.45, y: 0.45}
+size: {x: 512, y: 512}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -5
