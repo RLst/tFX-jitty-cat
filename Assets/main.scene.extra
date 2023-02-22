@@ -102,10 +102,10 @@
   },
   {
     "guid": {
-      "a": "06220ed5-455a-157e-daea-58bcc592b085",
+      "a": "fdd4b61c-aef9-7925-0819-606356c7ba16",
       "b": ""
     },
-    "objGuid": "Guid(9028960826242067732, 9407470041572311976)",
+    "objGuid": "Guid(4992579474607467041, 3347979491918567359)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -123,17 +123,17 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "createdBy": "Duplicate",
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
   },
   {
     "guid": {
-      "a": "8984be4e-7cc8-30c1-49f6-367a2d1bd00f",
+      "a": "6c0e4350-98b9-8add-8241-4136fabe55e1",
       "b": ""
     },
-    "objGuid": "Guid(11551320038821348238, 5289301090343419282)",
+    "objGuid": "Guid(15439393552894301347, 1066391451538126470)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -151,17 +151,17 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "createdBy": "Duplicate",
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
   },
   {
     "guid": {
-      "a": "b9347ed5-a9b4-40f7-e5fe-7afff901e84a",
+      "a": "83faa4d1-bbe9-e082-b699-68036c631eb3",
       "b": ""
     },
-    "objGuid": "Guid(10614635537879957186, 3409830016183878331)",
+    "objGuid": "Guid(18108400076863842551, 13624797393861563832)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -179,17 +179,17 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "createdBy": "Duplicate",
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
   },
   {
     "guid": {
-      "a": "b19a3abd-76e6-a9fb-6bed-5dfd99bcef56",
+      "a": "c35680b1-433b-68ab-762f-3cb7bd92b766",
       "b": ""
     },
-    "objGuid": "Guid(16448247150160465557, 6671073676186192030)",
+    "objGuid": "Guid(17963027576699837258, 5528007687197653402)",
     "extraType": "IFTransform2d",
     "name": "2D Transform",
     "eulerAngle": [
@@ -207,7 +207,7 @@
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "createdBy": "Duplicate",
+    "createdBy": "LegacyProject",
     "displayKey": "inspector_add_2dtransform",
     "expanded": true,
     "editable": true
@@ -2043,118 +2043,6 @@
   },
   {
     "guid": {
-      "a": "fdd4b61c-aef9-7925-0819-606356c7ba16",
-      "b": ""
-    },
-    "objGuid": "Guid(4992579474607467041, 3347979491918567359)",
-    "extraType": "IFTransform2d",
-    "name": "2D Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "IFTransform2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "LegacyProject",
-    "displayKey": "inspector_add_2dtransform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "6c0e4350-98b9-8add-8241-4136fabe55e1",
-      "b": ""
-    },
-    "objGuid": "Guid(15439393552894301347, 1066391451538126470)",
-    "extraType": "IFTransform2d",
-    "name": "2D Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "IFTransform2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "LegacyProject",
-    "displayKey": "inspector_add_2dtransform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "83faa4d1-bbe9-e082-b699-68036c631eb3",
-      "b": ""
-    },
-    "objGuid": "Guid(18108400076863842551, 13624797393861563832)",
-    "extraType": "IFTransform2d",
-    "name": "2D Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "IFTransform2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "LegacyProject",
-    "displayKey": "inspector_add_2dtransform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "c35680b1-433b-68ab-762f-3cb7bd92b766",
-      "b": ""
-    },
-    "objGuid": "Guid(17963027576699837258, 5528007687197653402)",
-    "extraType": "IFTransform2d",
-    "name": "2D Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "IFTransform2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "LegacyProject",
-    "displayKey": "inspector_add_2dtransform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
       "a": "d7ba1a9f-ef5b-bb5d-64af-463a5cb7d688",
       "b": ""
     },
@@ -2184,7 +2072,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "expanded": true,
+    "expanded": false,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -2236,7 +2124,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -2376,7 +2264,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -4211,7 +4099,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "80f2679c-1da0-f876-1814-a7cfb7b074f7",
+    "sequence": "4aec33fc-c90c-fe11-2643-73c255851158",
     "targetProperty": "Albedo",
     "playMode": 1
   },
@@ -4228,7 +4116,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -5768,125 +5656,6 @@
   },
   {
     "guid": {
-      "a": "d4ebbfab-afdf-1c39-51e2-9b7c75a90b77",
-      "b": ""
-    },
-    "objGuid": "Guid(14288368681990870632, 5566260543594884005)",
-    "extraType": "Entity",
-    "name": "Generative Effects",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "expanded": false,
-    "type": "none",
-    "createdEffectNodeKey": ""
-  },
-  {
-    "guid": {
-      "a": "88d446d5-1258-97f2-5df8-4b6b9dc92ca6",
-      "b": ""
-    },
-    "objGuid": "Guid(15294528616891814811, 6069760441201401478)",
-    "extraType": "Transform",
-    "name": "Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "Transform",
-    "version": "0.1.0",
-    "isVisibleInInspector": false,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "component_transform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "1c52c51b-85d4-4035-e0bb-d45215756ad0",
-      "b": ""
-    },
-    "objGuid": "Guid(10106677499228530220, 16483115352301461422)",
-    "extraType": "Transform",
-    "name": "Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "Transform",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "component_transform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "1c8973b7-99f7-09bd-701c-28ed7dbab23a",
-      "b": ""
-    },
-    "objGuid": "Guid(16593826073512208650, 194769748900256152)",
-    "extraType": "Transform",
-    "name": "Transform",
-    "eulerAngle": [
-      0,
-      0,
-      0
-    ],
-    "rotation": [
-      0,
-      0,
-      0,
-      1
-    ],
-    "rttiType": "Transform",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "component_transform",
-    "expanded": true,
-    "editable": true
-  },
-  {
-    "guid": {
-      "a": "91f7ca5e-cc85-5896-a5d7-dc7f1a7b8a8c",
-      "b": ""
-    },
-    "objGuid": "Guid(3118546365654875847, 16652924402288975275)",
-    "extraType": "EffectNode",
-    "name": "Effect Node",
-    "rttiType": "EffectNode",
-    "version": "0.1.0",
-    "isVisibleInInspector": false,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "Effect Node",
-    "expanded": true,
-    "editable": true,
-    "type": 1
-  },
-  {
-    "guid": {
       "a": "97b143c8-3e4e-03b9-c547-8b6c75a0e004",
       "b": ""
     },
@@ -6015,195 +5784,6 @@
   },
   {
     "guid": {
-      "a": "a8f8122e-0162-a6cc-b7f7-bc44feb266ae",
-      "b": ""
-    },
-    "objGuid": "Guid(18179609115607418349, 9362879931786077840)",
-    "extraType": "Entity",
-    "name": "Fireworks Segmentation",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": ""
-  },
-  {
-    "guid": {
-      "a": "44e0f284-a33c-bb0c-4c68-01920d7a346f",
-      "b": ""
-    },
-    "objGuid": "Guid(4990933888449723117, 10577201680354189213)",
-    "extraType": "IFSprite2d",
-    "name": "Image",
-    "rttiType": "IFSprite2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "displayKey": "inspector_add_image",
-    "expanded": true,
-    "editable": true,
-    "advanced": true,
-    "texture": "00000000-0000-0000-0000-000000000024",
-    "textureType": "ResItemPNGImage"
-  },
-  {
-    "guid": {
-      "a": "f5122a9d-537e-b7ef-a294-9859885f3770",
-      "b": ""
-    },
-    "objGuid": "Guid(14289393586385234005, 10934148927067650231)",
-    "extraType": "AnimationSequence",
-    "name": "Animation Sequence",
-    "rttiType": "AnimSeqComponent",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "displayKey": "component_aniseq",
-    "expanded": true,
-    "editable": true,
-    "sequence": "80f2679c-1da0-f876-1814-a7cfb7b074f7",
-    "targetProperty": "Albedo",
-    "playMode": 1
-  },
-  {
-    "guid": {
-      "a": "dfc89461-830b-b4af-cc1e-67c9bebf36d9",
-      "b": ""
-    },
-    "objGuid": "Guid(15006424106110725994, 17166422481300426162)",
-    "extraType": "Entity",
-    "name": "Heart Segmentation",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": ""
-  },
-  {
-    "guid": {
-      "a": "b3fcdfc1-86d5-eb23-9e89-fecb69cbad35",
-      "b": ""
-    },
-    "objGuid": "Guid(15873261895920505097, 2115803512961319065)",
-    "extraType": "IFSprite2d",
-    "name": "Image",
-    "rttiType": "IFSprite2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "displayKey": "inspector_add_image",
-    "expanded": true,
-    "editable": true,
-    "advanced": true,
-    "texture": "00000000-0000-0000-0000-000000000024",
-    "textureType": "ResItemPNGImage"
-  },
-  {
-    "guid": {
-      "a": "a2dd4434-8864-e512-5d81-90fee342cf75",
-      "b": ""
-    },
-    "objGuid": "Guid(2181828689372191979, 5525436960753034938)",
-    "extraType": "AnimationSequence",
-    "name": "Animation Sequence",
-    "rttiType": "AnimSeqComponent",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "displayKey": "component_aniseq",
-    "expanded": true,
-    "editable": true,
-    "sequence": "762f41df-a54d-4f90-78a1-7b1b98470ab4",
-    "targetProperty": "Albedo",
-    "playMode": 1
-  },
-  {
-    "guid": {
-      "a": "558cfa97-8d5f-f98b-2884-2417d5616bf6",
-      "b": ""
-    },
-    "objGuid": "Guid(16090579986025091108, 12235037410935948961)",
-    "extraType": "Entity",
-    "name": "Portrait",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": ""
-  },
-  {
-    "guid": {
-      "a": "f9d81bd8-fdd1-48e9-8ff7-b6b8f271787a",
-      "b": ""
-    },
-    "objGuid": "Guid(7082283295120037445, 13179294432565840000)",
-    "extraType": "IFSprite2d",
-    "name": "Image",
-    "rttiType": "IFSprite2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "displayKey": "inspector_add_image",
-    "expanded": true,
-    "editable": true,
-    "advanced": true,
-    "texture": "de62b8dc-4527-8bca-173b-02e398aa6758",
-    "textureType": "ResItemSegmentationAsset",
-    "jsAssetUuid": "f807936a-f3d4-d7ec-74cb-433900184c25"
-  },
-  {
-    "guid": {
-      "a": "61bc8328-1304-049d-6295-fef13ff0a11a",
-      "b": ""
-    },
-    "objGuid": "Guid(955162800924245680, 6283003645786279826)",
-    "extraType": "Entity",
-    "name": "Segmentation",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": ""
-  },
-  {
-    "guid": {
-      "a": "17bc394b-682d-e743-71b5-3cb465c9d085",
-      "b": ""
-    },
-    "objGuid": "Guid(13997472170534193745, 9382446737266560141)",
-    "extraType": "IFSprite2d",
-    "name": "Image",
-    "rttiType": "IFSprite2d",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "Duplicate",
-    "displayKey": "inspector_add_image",
-    "expanded": true,
-    "editable": true,
-    "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e",
-    "textureType": "ResItemPNGImage"
-  },
-  {
-    "guid": {
       "a": "f84f2883-3298-0c90-7a32-7f7237988399",
       "b": ""
     },
@@ -6215,7 +5795,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "Duplicate",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -6325,95 +5905,7 @@
     "expanded": true,
     "editable": true,
     "advanced": true,
-    "texture": "00000000-0000-0000-0000-00000000003e",
+    "texture": "ee5552c5-770e-aaba-38af-255bd92f0704",
     "textureType": "ResItemPNGImage"
-  },
-  {
-    "guid": {
-      "a": "75933680-202f-778c-b838-0d89e06741e9",
-      "b": ""
-    },
-    "objGuid": "Guid(8380130819803686775, 8754727574260116883)",
-    "extraType": "Entity",
-    "name": "Eyebrow Eraser",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": "effect_node_gan"
-  },
-  {
-    "guid": {
-      "a": "da204c8a-24f5-c685-ac95-fc7ed7d372d8",
-      "b": ""
-    },
-    "objGuid": "Guid(957407141381121595, 12566980122635776172)",
-    "extraType": "MeshRenderer",
-    "name": "Mesh Renderer",
-    "rttiType": "MeshRenderer",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "component_meshrenderer",
-    "expanded": false,
-    "editable": true,
-    "visualization": false
-  },
-  {
-    "guid": {
-      "a": "8a471291-db30-eaa2-0245-3fc3858c0dd5",
-      "b": ""
-    },
-    "objGuid": "Guid(10902090265887742325, 1915422248008325265)",
-    "extraType": "GanComponent",
-    "name": "Generative Effects",
-    "rttiType": "JSScriptComponent",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "component_generativeeffect",
-    "expanded": true,
-    "editable": true,
-    "ganKey": "pucker"
-  },
-  {
-    "guid": {
-      "a": "21a32171-e27f-aa34-6841-1664f3424866",
-      "b": ""
-    },
-    "objGuid": "Guid(8020700350093709482, 7064963915994311564)",
-    "extraType": "Entity",
-    "name": "Generative Effects Camera",
-    "rttiType": "Entity",
-    "version": "0.1.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "expanded": true,
-    "type": "none",
-    "createdEffectNodeKey": "effect_node_gan"
-  },
-  {
-    "guid": {
-      "a": "3546a1c5-0057-dc5d-4736-34341a9e2fe5",
-      "b": ""
-    },
-    "objGuid": "Guid(13784743028986557618, 14740428941394008707)",
-    "extraType": "Camera",
-    "name": "Camera",
-    "rttiType": "Camera",
-    "version": "0.2.0",
-    "isVisibleInInspector": true,
-    "hideInPanel": false,
-    "createdBy": "AddObject",
-    "displayKey": "object_camera",
-    "expanded": true,
-    "editable": true,
-    "usage": "3D"
   }
 ]

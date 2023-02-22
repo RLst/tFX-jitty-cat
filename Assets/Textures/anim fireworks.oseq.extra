@@ -1,20 +1,20 @@
 [
   {
     "guid": {
-      "a": "80f2679c-1da0-f876-1814-a7cfb7b074f7",
+      "a": "4aec33fc-c90c-fe11-2643-73c255851158",
       "b": ""
     },
     "extraType": "ResItemTextureSequence",
     "name": "anim fireworks",
-    "expandInPanel": true,
-    "objGuid": "Guid(8666323969861889566, 5380709887498803639)",
+    "expandInPanel": false,
+    "objGuid": "Guid(11333611067087401542, 13675528759532202371)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "createdBy": "LegacyProject",
+    "createdBy": "Unregistered",
     "compressionType": 1,
-    "quality": 1,
-    "maxResolution": 256
+    "quality": 2,
+    "maxResolution": 512
   }
 ]
