@@ -7,12 +7,12 @@
     "extraType": "ResItemMaterialOmtl",
     "name": "makup mild",
     "expandInPanel": true,
-    "objGuid": "Guid(16664058095231216212, 28284442166631562)",
+    "objGuid": "Guid(1605580501976223058, 6668737049861448843)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "skinObjGuid": "Guid(6362184435368073911, 16501132517682708656)"
+    "skinObjGuid": "Guid(9386286281991654501, 2920811957400712863)"
   }
 ]

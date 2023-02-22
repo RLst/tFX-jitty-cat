@@ -7,12 +7,12 @@
     "extraType": "ResItemMaterialOmtl",
     "name": "cat ears angry L1",
     "expandInPanel": true,
-    "objGuid": "Guid(16594077041323414413, 2261412423627233707)",
+    "objGuid": "Guid(10181454226090655953, 1533798897132067460)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "skinObjGuid": "Guid(742338059761764687, 17007815314645423032)"
+    "skinObjGuid": "Guid(8812160628792166260, 10766851004644825220)"
   }
 ]

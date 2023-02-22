@@ -5744,7 +5744,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "AddObject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -5973,7 +5973,7 @@
     "displayKey": "component_aniseq",
     "expanded": true,
     "editable": true,
-    "sequence": "07df57b8-11ee-f59a-736a-722869d7ef9e",
+    "sequence": "e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9",
     "targetProperty": "Albedo",
     "playMode": 1
   },
@@ -6359,7 +6359,7 @@
     "hideInPanel": false,
     "createdBy": "AddObject",
     "displayKey": "component_meshrenderer",
-    "expanded": true,
+    "expanded": false,
     "editable": true,
     "visualization": false
   },

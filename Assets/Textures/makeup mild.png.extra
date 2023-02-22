@@ -7,7 +7,7 @@
     "extraType": "ResItemPNGImage",
     "name": "makeup mild",
     "expandInPanel": true,
-    "objGuid": "Guid(7297356473399989935, 13701460745515601842)",
+    "objGuid": "Guid(13856315687052722427, 16585307025759328179)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

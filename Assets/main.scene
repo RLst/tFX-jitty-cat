@@ -76,7 +76,7 @@ entities:
           pChromaticAberrationEnable: true
           pChromaticAberrationEnable_isExpand: true
           pChromaticAberrationIntensity: 0.15
-          pFastChromaticAberration: false
+          pFastChromaticAberration: true
           pFxaaEnable: true
           pFxaaEnable_isExpand: true
           pLensFlareEnable: false
@@ -456,8 +456,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/3.png}
-        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--3.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ba94d037-df4c-95b3-91d8-80e1c5daeb86/1.png}
+        imageAtlas: {localId: 1, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -534,7 +534,7 @@ entities:
         name: ""
         guid: {a: 11406476161238200212, b: 16259467842679672245}
         enabled: true
-        animSeq: {localId: 13, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
+        animSeq: {localId: 14, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -547,7 +547,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          pet nose: {localId: 13, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
+          pet nose: {localId: 14, path: ba94d037-df4c-95b3-91d8-80e1c5daeb86--ba94d037-df4c-95b3-91d8-80e1c5daeb86.seq}
     layer: 1
   - __class: Entity
     name: Right Top Whiskers
@@ -1327,8 +1327,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/762f41df-a54d-4f90-78a1-7b1b98470ab4/2.png}
-        imageAtlas: {localId: 1, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/762f41df-a54d-4f90-78a1-7b1b98470ab4/0.png}
+        imageAtlas: {localId: 1, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1359,7 +1359,7 @@ entities:
         name: ""
         guid: {a: 14863960989338338034, b: 3150294275881982855}
         enabled: true
-        animSeq: {localId: 8, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
+        animSeq: {localId: 9, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1372,7 +1372,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anim heart: {localId: 8, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
+          anim heart: {localId: 9, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
     layer: 2
   - __class: Entity
     name: "Bling: V"
@@ -1522,8 +1522,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1600,7 +1600,7 @@ entities:
         name: ""
         guid: {a: 4850253045119855079, b: 18109402336928588454}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1613,7 +1613,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blush R
@@ -1735,8 +1735,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1813,7 +1813,7 @@ entities:
         name: ""
         guid: {a: 10107035589996618014, b: 13166506798117790351}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1826,7 +1826,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blushes 0
@@ -1902,8 +1902,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/8.png}
-        imageAtlas: {localId: 1, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--8.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/23.png}
+        imageAtlas: {localId: 1, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--23.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -1934,7 +1934,7 @@ entities:
         name: ""
         guid: {a: 10470584359748705862, b: 8049909636227180958}
         enabled: true
-        animSeq: {localId: 10, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
+        animSeq: {localId: 11, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -1947,7 +1947,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anim fireworks: {localId: 10, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
+          anim fireworks: {localId: 11, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
     layer: 2
   - __class: Entity
     name: General
@@ -2267,7 +2267,7 @@ entities:
         name: ""
         guid: {a: 2903383955373901272, b: 17779243242381222540}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -2280,7 +2280,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blushes 1
@@ -2356,8 +2356,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2434,7 +2434,7 @@ entities:
         name: ""
         guid: {a: 17243622943648209179, b: 5382123711197728416}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -2447,7 +2447,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blush Marks R
@@ -2472,8 +2472,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2550,7 +2550,7 @@ entities:
         name: ""
         guid: {a: 15801225715449536610, b: 15569109948189775749}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -2563,7 +2563,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blush R
@@ -2736,8 +2736,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/0.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -2814,7 +2814,7 @@ entities:
         name: ""
         guid: {a: 12486677850765832582, b: 5657468697915710882}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -2827,7 +2827,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blush L
@@ -3027,7 +3027,7 @@ entities:
         name: ""
         guid: {a: 12991259710905275299, b: 3653336523315673995}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -3040,7 +3040,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blushes 3
@@ -3116,8 +3116,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/1.png}
-        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/1d9d96da-675a-5c15-cd24-666f544fb45b/2.png}
+        imageAtlas: {localId: 1, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--2.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -3194,7 +3194,7 @@ entities:
         name: ""
         guid: {a: 3407129789749536743, b: 8750994137153603210}
         enabled: true
-        animSeq: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+        animSeq: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -3207,7 +3207,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          blush hatchings: {localId: 11, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
+          blush hatchings: {localId: 12, path: 1d9d96da-675a-5c15-cd24-666f544fb45b--1d9d96da-675a-5c15-cd24-666f544fb45b.seq}
     layer: 1
   - __class: Entity
     name: Blush L
@@ -3426,8 +3426,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/0.png}
-        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -3504,7 +3504,7 @@ entities:
         name: ""
         guid: {a: 3192796834173620585, b: 11572052860960002950}
         enabled: true
-        animSeq: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        animSeq: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -3517,7 +3517,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anger veins: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+          anger veins: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
     layer: 1
   - __class: Entity
     name: Anger Veins 1
@@ -3542,8 +3542,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/0.png}
-        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -3620,7 +3620,7 @@ entities:
         name: ""
         guid: {a: 813340242402287547, b: 16502548484080237752}
         enabled: true
-        animSeq: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        animSeq: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -3633,7 +3633,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anger veins: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+          anger veins: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
     layer: 1
   - __class: Entity
     name: Anger Veins 2
@@ -3658,8 +3658,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/0.png}
-        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -3736,7 +3736,7 @@ entities:
         name: ""
         guid: {a: 7441285571153534858, b: 1991834318509432466}
         enabled: true
-        animSeq: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        animSeq: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -3749,7 +3749,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anger veins: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+          anger veins: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
     layer: 1
   - __class: Entity
     name: Anger Veins 3
@@ -3774,8 +3774,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/0.png}
-        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/ac354da2-7b2a-4222-a3b0-4671aa998d0d/1.png}
+        imageAtlas: {localId: 1, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--1.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -3852,7 +3852,7 @@ entities:
         name: ""
         guid: {a: 3192341492305362822, b: 4482919658689782441}
         enabled: true
-        animSeq: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+        animSeq: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -3865,7 +3865,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anger veins: {localId: 6, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
+          anger veins: {localId: 7, path: ac354da2-7b2a-4222-a3b0-4671aa998d0d--ac354da2-7b2a-4222-a3b0-4671aa998d0d.seq}
     layer: 1
   - __class: Entity
     name: Canvas
@@ -4055,8 +4055,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/07df57b8-11ee-f59a-736a-722869d7ef9e/0.png}
-        imageAtlas: {localId: 1, path: 07df57b8-11ee-f59a-736a-722869d7ef9e--0.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9/4.png}
+        imageAtlas: {localId: 2, path: e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9--4.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -4087,7 +4087,7 @@ entities:
         name: ""
         guid: {a: 12341776622348594179, b: 10808770470495133864}
         enabled: true
-        animSeq: {localId: 3, path: 07df57b8-11ee-f59a-736a-722869d7ef9e--07df57b8-11ee-f59a-736a-722869d7ef9e.seq}
+        animSeq: {localId: 2, path: e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9--e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -4100,7 +4100,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          jitty tuts: {localId: 3, path: 07df57b8-11ee-f59a-736a-722869d7ef9e--07df57b8-11ee-f59a-736a-722869d7ef9e.seq}
+          guide: {localId: 2, path: e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9--e2d6aeac-46b8-3f4d-39ff-433dad1a4bd9.seq}
     layer: 0
   - __class: Entity
     name: 2D Background Camera
@@ -4154,8 +4154,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/8.png}
-        imageAtlas: {localId: 1, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--8.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/80f2679c-1da0-f876-1814-a7cfb7b074f7/23.png}
+        imageAtlas: {localId: 1, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--23.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -4186,7 +4186,7 @@ entities:
         name: ""
         guid: {a: 14289393586385234005, b: 10934148927067650231}
         enabled: true
-        animSeq: {localId: 10, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
+        animSeq: {localId: 11, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -4199,7 +4199,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anim fireworks: {localId: 10, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
+          anim fireworks: {localId: 11, path: 80f2679c-1da0-f876-1814-a7cfb7b074f7--80f2679c-1da0-f876-1814-a7cfb7b074f7.seq}
     layer: 2
   - __class: Entity
     name: Heart Segmentation
@@ -4224,8 +4224,8 @@ entities:
         blendMode:
           __class: IFBlendMode
           value: Normal
-        texture: {localId: 1, path: Library/Artifact/762f41df-a54d-4f90-78a1-7b1b98470ab4/2.png}
-        imageAtlas: {localId: 1, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--2.imageatlas}
+        texture: {localId: 1, path: Library/Artifact/762f41df-a54d-4f90-78a1-7b1b98470ab4/0.png}
+        imageAtlas: {localId: 1, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--0.imageatlas}
         atlasIndex: 0
         filledType:
           __class: IFFilledType
@@ -4256,7 +4256,7 @@ entities:
         name: ""
         guid: {a: 2181828689372191979, b: 5525436960753034938}
         enabled: true
-        animSeq: {localId: 8, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
+        animSeq: {localId: 9, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
         texName: Albedo
         frameName: _MainTex_ST
         frameRotateName: _Atlas_Rotated
@@ -4269,7 +4269,7 @@ entities:
         autoplay: true
         animSeqMap:
           __class: Map
-          anim heart: {localId: 8, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
+          anim heart: {localId: 9, path: 762f41df-a54d-4f90-78a1-7b1b98470ab4--762f41df-a54d-4f90-78a1-7b1b98470ab4.seq}
     layer: 2
   - __class: Entity
     name: Portrait
@@ -4479,7 +4479,7 @@ entities:
         name: ""
         guid: {a: 8740892363320755943, b: 4219248594039367350}
         enabled: true
-        alpha: 0.300000011920929
+        alpha: 0.4000000059604645
         cascadeAlphaEnabled: true
         type:
           __class: IFSprite2dType
@@ -4550,7 +4550,7 @@ entities:
         properties:
           __class: Map
           ganKey: pucker
-          graphName: EH_macosz79mn92xrvehuysmu2udi
+          graphName: EH_macos7jzcf6zj2qtfqjzr143ram
           maskPath:
             - image/mask.png
           nodeName: pucker_0
@@ -4589,7 +4589,7 @@ config:
   __class: Map
 msaa:
   __class: MSAAMode
-  value: _4X
+  value: NONE
 jsScriptSystems:
   - js/GraphSystem.js
   - js/EditorInjectSystem.js

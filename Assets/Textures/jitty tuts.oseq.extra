@@ -7,7 +7,7 @@
     "extraType": "ResItemTextureSequence",
     "name": "jitty tuts",
     "expandInPanel": false,
-    "objGuid": "Guid(6361581435836450924, 11872537319444168873)",
+    "objGuid": "Guid(13929167333188476849, 17954637651155961990)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

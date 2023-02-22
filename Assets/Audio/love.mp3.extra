@@ -7,7 +7,7 @@
     "extraType": "ResItemMP3",
     "name": "love",
     "expandInPanel": false,
-    "objGuid": "Guid(8737517770222662742, 8084463931039671435)",
+    "objGuid": "Guid(12268309736233250697, 4969896794429644971)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,
