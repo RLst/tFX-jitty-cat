@@ -12,7 +12,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "AddObject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -1216,6 +1216,28 @@
     "expanded": true,
     "editable": true,
     "usage": "Common"
+  },
+  {
+    "guid": {
+      "a": "396994d5-e780-f71f-99e0-0afb1a97e0a4",
+      "b": ""
+    },
+    "objGuid": "Guid(5566968240284493833, 2113133621426365104)",
+    "extraType": "PostProcess",
+    "name": "Post Process",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddComponent",
+    "displayKey": "inspector_add_postprocess",
+    "expanded": true,
+    "editable": true,
+    "postProcessList": [
+      3,
+      4
+    ],
+    "objectGuids": []
   },
   {
     "guid": {
@@ -3818,24 +3840,24 @@
     "textureOpacity": 0,
     "brightness": 0.7,
     "intensity": 0.7,
-    "size": 0.4,
-    "sizeRandomness": 0.7,
+    "size": 0.45,
+    "sizeRandomness": 0.8,
     "color1": [
       1,
-      0.8251791596412659,
-      0.2024831920862198,
+      0.8033348917961121,
+      0.16422945261001587,
       1
     ],
     "color2": [
       1,
-      0.4785206615924835,
-      0.0363207571208477,
+      0.338798463344574,
+      0.0019440384348854423,
       1
     ],
     "occludeFace": false,
     "blendMode": 10,
-    "pattern1": "00000000-0000-0000-0000-00000000006a",
-    "pattern2": "00000000-0000-0000-0000-00000000006b",
+    "pattern1": "00000000-0000-0000-0000-00000000006b",
+    "pattern2": "8eb03463-1bc8-20b6-3851-e64dc1571914",
     "pattern3": "00000000-0000-0000-0000-00000000006b",
     "speed": 0.4
   },
@@ -5652,7 +5674,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "AddObject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -5687,7 +5709,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "AddObject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -5743,6 +5765,125 @@
     "expanded": true,
     "editable": true,
     "type": 6
+  },
+  {
+    "guid": {
+      "a": "d4ebbfab-afdf-1c39-51e2-9b7c75a90b77",
+      "b": ""
+    },
+    "objGuid": "Guid(14288368681990870632, 5566260543594884005)",
+    "extraType": "Entity",
+    "name": "Generative Effects",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "expanded": false,
+    "type": "none",
+    "createdEffectNodeKey": ""
+  },
+  {
+    "guid": {
+      "a": "88d446d5-1258-97f2-5df8-4b6b9dc92ca6",
+      "b": ""
+    },
+    "objGuid": "Guid(15294528616891814811, 6069760441201401478)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": false,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "1c52c51b-85d4-4035-e0bb-d45215756ad0",
+      "b": ""
+    },
+    "objGuid": "Guid(10106677499228530220, 16483115352301461422)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "1c8973b7-99f7-09bd-701c-28ed7dbab23a",
+      "b": ""
+    },
+    "objGuid": "Guid(16593826073512208650, 194769748900256152)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "91f7ca5e-cc85-5896-a5d7-dc7f1a7b8a8c",
+      "b": ""
+    },
+    "objGuid": "Guid(3118546365654875847, 16652924402288975275)",
+    "extraType": "EffectNode",
+    "name": "Effect Node",
+    "rttiType": "EffectNode",
+    "version": "0.1.0",
+    "isVisibleInInspector": false,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "Effect Node",
+    "expanded": true,
+    "editable": true,
+    "type": 1
   },
   {
     "guid": {
@@ -6074,7 +6215,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "Duplicate",
-    "expanded": true,
+    "expanded": false,
     "type": "none",
     "createdEffectNodeKey": ""
   },
@@ -6186,5 +6327,93 @@
     "advanced": true,
     "texture": "00000000-0000-0000-0000-00000000003e",
     "textureType": "ResItemPNGImage"
+  },
+  {
+    "guid": {
+      "a": "75933680-202f-778c-b838-0d89e06741e9",
+      "b": ""
+    },
+    "objGuid": "Guid(8380130819803686775, 8754727574260116883)",
+    "extraType": "Entity",
+    "name": "Eyebrow Eraser",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_gan"
+  },
+  {
+    "guid": {
+      "a": "da204c8a-24f5-c685-ac95-fc7ed7d372d8",
+      "b": ""
+    },
+    "objGuid": "Guid(957407141381121595, 12566980122635776172)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "component_meshrenderer",
+    "expanded": true,
+    "editable": true,
+    "visualization": false
+  },
+  {
+    "guid": {
+      "a": "8a471291-db30-eaa2-0245-3fc3858c0dd5",
+      "b": ""
+    },
+    "objGuid": "Guid(10902090265887742325, 1915422248008325265)",
+    "extraType": "GanComponent",
+    "name": "Generative Effects",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "component_generativeeffect",
+    "expanded": true,
+    "editable": true,
+    "ganKey": "pucker"
+  },
+  {
+    "guid": {
+      "a": "21a32171-e27f-aa34-6841-1664f3424866",
+      "b": ""
+    },
+    "objGuid": "Guid(8020700350093709482, 7064963915994311564)",
+    "extraType": "Entity",
+    "name": "Generative Effects Camera",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_gan"
+  },
+  {
+    "guid": {
+      "a": "3546a1c5-0057-dc5d-4736-34341a9e2fe5",
+      "b": ""
+    },
+    "objGuid": "Guid(13784743028986557618, 14740428941394008707)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "createdBy": "AddObject",
+    "displayKey": "object_camera",
+    "expanded": true,
+    "editable": true,
+    "usage": "3D"
   }
 ]

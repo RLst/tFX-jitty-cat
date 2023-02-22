@@ -7,7 +7,7 @@
     "extraType": "ResItemTextureSequence",
     "name": "anger veins",
     "expandInPanel": false,
-    "objGuid": "Guid(5712898325089694811, 3212966656791864464)",
+    "objGuid": "Guid(9747353170358853614, 12039266920648019860)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

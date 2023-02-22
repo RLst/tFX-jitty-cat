@@ -7,7 +7,7 @@
     "extraType": "ResItemMP3",
     "name": "fireworks",
     "expandInPanel": false,
-    "objGuid": "Guid(11910712562304240665, 13882470888549314183)",
+    "objGuid": "Guid(4992973231048100043, 5805892946833598610)",
     "rttiType": "AudioClip",
     "version": "0.1.0",
     "isVisibleInInspector": true,

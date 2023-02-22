@@ -7,12 +7,12 @@
     "extraType": "ResItemMaterialOmtl",
     "name": "whiskers side R1",
     "expandInPanel": true,
-    "objGuid": "Guid(12774740830628191971, 6501632496349286820)",
+    "objGuid": "Guid(4630249512778463709, 7858731299718232225)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "skinObjGuid": "Guid(10395830724815782949, 7827026385419771814)"
+    "skinObjGuid": "Guid(3549454064078647472, 12466295533329132951)"
   }
 ]

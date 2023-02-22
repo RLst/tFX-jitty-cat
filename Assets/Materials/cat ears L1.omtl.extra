@@ -7,12 +7,12 @@
     "extraType": "ResItemMaterialOmtl",
     "name": "cat ears L1",
     "expandInPanel": true,
-    "objGuid": "Guid(10179763207735839893, 7395247529283747005)",
+    "objGuid": "Guid(16739236649836546162, 6215982037146380476)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "createdBy": "LegacyProject",
-    "skinObjGuid": "Guid(8020412605919559112, 8615812980823663807)"
+    "skinObjGuid": "Guid(1388357968627577643, 15553555251134869173)"
   }
 ]

@@ -7,7 +7,7 @@
     "extraType": "ResItemTextureSequence",
     "name": "anim heart",
     "expandInPanel": true,
-    "objGuid": "Guid(1819910699504390942, 15052025524745002382)",
+    "objGuid": "Guid(14720850136628985456, 3849097072410543791)",
     "rttiType": "AnimSeq",
     "version": "0.1.0",
     "isVisibleInInspector": true,

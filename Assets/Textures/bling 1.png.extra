@@ -1,19 +1,19 @@
 [
   {
     "guid": {
-      "a": "6a10e77b-a8be-6e2b-c51d-5fe0b33d9cac",
+      "a": "15e3dad9-bfca-2381-de5c-661e51bdb98e",
       "b": ""
     },
     "extraType": "ResItemPNGImage",
-    "name": "whiskers side R0",
-    "expandInPanel": true,
-    "objGuid": "Guid(7227883232306938131, 14839105566420224182)",
+    "name": "bling 1",
+    "expandInPanel": false,
+    "objGuid": "Guid(17530163171890064401, 1119554628631063231)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "createdBy": "LegacyProject",
-    "compressionType": 1,
+    "createdBy": "Unregistered",
+    "compressionType": 0,
     "quality": 0,
     "maxResolution": 512,
     "enableMipmap": false,
